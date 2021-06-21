@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Project Showcase Main
@@ -12,9 +13,16 @@
 
 
 /* Structural Styles */
+h1, h2{
+    text-align: center;
+}
+
+.tabs a:link{
+    pointer-events: none;
+}
 body
     {
-        background-color: moccasin;
+        background-color: rgb(219, 214, 206);
     }
 
 footer
@@ -27,7 +35,23 @@ footer
 
 
 /* Navigation Styles */
+nav > ul
+   {
+      list-style-type: none;
+      line-height: 2em;
+      font-size: 1.3em;
+      
+   }
 
+nav > ul > li >a:link, nav > ul > li > a:visited
+   {
+      text-decoration: none;
+   }
+
+nav > ul > li > a:hover, nav > ul > li > a:active
+   {
+      color: rgb(212, 35, 35);
+   }
 
 
 
