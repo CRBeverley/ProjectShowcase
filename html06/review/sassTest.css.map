@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,CAAC,CAAC;IACA,YAAY,EAAE,CAAC;IACf,UAAU,EAAE,IAAI;GACjB;;;AAEH,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "sassTest.scss"
+    ],
+    "names": [],
+    "file": "sassTest.css"
+}

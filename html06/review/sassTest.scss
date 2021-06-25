@@ -1,0 +1,11 @@
+@media (min-width: 641px) {
+  p {
+    column-count: 3;
+    transform: scaleX();
+  }
+}
+header {
+  background-color: gray;
+  padding: 5px;
+  color: black;
+}
