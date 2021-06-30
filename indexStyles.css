@@ -11,53 +11,41 @@
 
 */
 
-
 /* Structural Styles */
-h1, h2{
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 
-.tabs a:link{
-    pointer-events: none;
+.tabs a:link {
+  pointer-events: none;
 }
-body
-    {
-        background-color: rgb(219, 214, 206);
-    }
+body {
+  background-color: rgb(219, 214, 206);
+}
 
-footer
-    {
-        background-color:rgb(121, 94, 49);
-        color: white;
-
-    }
-
-
+footer {
+  background-color: rgb(121, 94, 49);
+  color: white;
+}
 
 /* Navigation Styles */
-nav > ul
-   {
-      list-style-type: none;
-      line-height: 2em;
-      font-size: 1.3em;
-      
-   }
+nav > ul {
+  list-style-type: none;
+  line-height: 2em;
+  font-size: 1.3em;
+}
 
-nav > ul > li >a:link, nav > ul > li > a:visited
-   {
-      text-decoration: none;
-   }
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
+  text-decoration: none;
+}
 
-nav > ul > li > a:hover, nav > ul > li > a:active
-   {
-      color: rgb(212, 35, 35);
-   }
-
-
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  color: rgb(212, 35, 35);
+}
 
 /* Section Styles */
-
-
-
 
 /* Description List Styles */
