@@ -79,15 +79,16 @@
           <label for="orderType">Pickup</label>
         </div>
 
-        <fieldset id="delivery">
+        <fieldset id="deliveryInfo">
           <legend>Delivery Options</legend>
-
-          <input
-            type="text"
+          <textarea
             name="delAddress"
             id="addressBox"
+            cols="30"
+            rows="10"
             placeholder="Enter delivery address"
-          />
+          ></textarea>
+
           <label for="delBox">Delivery Time</label>
           <input type="time" name="delTime" id="delBox" />
         </fieldset>
@@ -99,7 +100,7 @@
           <input type="time" name="pickupTime" id="pickupBox" disabled />
         </fieldset>
         <div class="submit">
-          <input type="button" value="Begin Building your Order" />
+          <input type="submit" value="Begin Building your Order" />
         </div>
       </form>
     </section>
