@@ -12,6 +12,13 @@
 */
 
 /* Structural Styles */
+/* HEADER STYLES */
+header {
+  background-color: #45a29e;
+  padding-top: 10px;
+  border-radius: 25px;
+  color: #1f2833;
+}
 h1,
 h2 {
   text-align: center;
@@ -20,16 +27,36 @@ h2 {
 .tabs a:link {
   pointer-events: none;
 }
+
+/* HTML AND BODY */
+html {
+  background-color: #1f2833;
+}
+
 body {
-  background-color: rgb(219, 214, 206);
+  background-color: #1f2833;
+  border-radius: 25px;
+}
+.container {
+  background-color: #c5c6c7;
+  border-radius: 25px;
+  padding-bottom: 200px;
 }
 
 footer {
-  background-color: rgb(121, 94, 49);
-  color: white;
+  background-color: #45a29e;
+  border-radius: 15px;
+  text-align: center;
 }
 
 /* Navigation Styles */
+nav.tabs a {
+  color: #1f2833;
+}
+nav.links a {
+  color: #45a29e;
+}
+
 nav > ul {
   list-style-type: none;
   line-height: 2em;
