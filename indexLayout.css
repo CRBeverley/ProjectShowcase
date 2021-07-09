@@ -13,6 +13,7 @@ header {
   display: block;
   width: 16.66%;
   float: left;
+  transition: all 0.5s ease 0s;
 }
 .tabs > a {
   display: block;
