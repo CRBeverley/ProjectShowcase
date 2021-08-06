@@ -122,12 +122,14 @@ body {
 div.mainContainer {
   min-height: 900px;
 }
+img#bottomMenuImg {
+  height: 500px;
+}
 
 .lowerContainer {
   display: grid;
-  grid-template-columns: 20% 40% 40%;
+  grid-template-columns: 10% 50% 40%;
   height: 500px;
-  background-image: url("/websiteProject/websiteProjectDesign/imgAssets/bottomMenuImg.png");
 
   > .lowerNav {
     height: 100%;
@@ -139,7 +141,7 @@ div.mainContainer {
 
       font-size: x-large;
       > li {
-        text-align: center;
+        text-align: left;
         margin-bottom: 50px;
 
         > a {
