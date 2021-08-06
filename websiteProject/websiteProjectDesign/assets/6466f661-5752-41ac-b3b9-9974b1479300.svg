@@ -1,0 +1,7 @@
+<svg id="btnYellowAddToCart" xmlns="http://www.w3.org/2000/svg" width="312" height="80" viewBox="0 0 312 80">
+  <g id="Rectangle_11" data-name="Rectangle 11" fill="#fd0" stroke="#707070" stroke-width="1">
+    <rect width="312" height="80" rx="40" stroke="none"/>
+    <rect x="0.5" y="0.5" width="311" height="79" rx="39.5" fill="none"/>
+  </g>
+  <text id="Order_Now" data-name="Order Now" transform="translate(156 55)" fill="#3c3c3c" font-size="44" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.042em"><tspan x="-106.285" y="0">Order Now</tspan></text>
+</svg>

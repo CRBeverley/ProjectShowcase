@@ -1,0 +1,5 @@
+<svg id="hamburgerMenu" xmlns="http://www.w3.org/2000/svg" width="129.608" height="48" viewBox="0 0 129.608 48">
+  <rect id="Rectangle_17" data-name="Rectangle 17" width="129.608" height="48" fill="#fff"/>
+  <path id="Icon_material-menu" data-name="Icon material-menu" d="M4.5,27.658H41.108v-3.11H4.5Zm0-7.774H41.108v-3.11H4.5ZM4.5,9v3.11H41.108V9Z" transform="translate(5.5 5.342)"/>
+  <text id="Menu" transform="translate(59.608 33)" fill="#1a1a1a" font-size="25" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500"><tspan x="0" y="0">Menu</tspan></text>
+</svg>

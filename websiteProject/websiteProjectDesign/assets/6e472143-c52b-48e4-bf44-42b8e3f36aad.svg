@@ -1,0 +1,7 @@
+<svg id="btnRemoveItem" xmlns="http://www.w3.org/2000/svg" width="88" height="30" viewBox="0 0 88 30">
+  <g id="Rectangle_25" data-name="Rectangle 25" fill="#db5252" stroke="#707070" stroke-width="1">
+    <rect width="88" height="30" rx="15" stroke="none"/>
+    <rect x="0.5" y="0.5" width="87" height="29" rx="14.5" fill="none"/>
+  </g>
+  <text id="Remove" transform="translate(44 21)" fill="#fff" font-size="18" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.042em"><tspan x="-33.702" y="0">Remove</tspan></text>
+</svg>

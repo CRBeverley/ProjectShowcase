@@ -1,0 +1,109 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2021-08-05T18:38:57.851Z",
+  "entities": [
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "b330a2b7-7789-4f7e-a3bc-0938c9907977",
+      "name": "Cooper — 55pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "0954cdae-e3fe-47e2-b569-eaf61301979d",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "b330a2b7-7789-4f7e-a3bc-0938c9907977",
+          "type": "custom",
+          "value": "Cooper",
+          "key": "family"
+        },
+        {
+          "id": "b330a2b7-7789-4f7e-a3bc-0938c9907977",
+          "type": "custom",
+          "value": "Black",
+          "key": "weight"
+        },
+        {
+          "id": "b330a2b7-7789-4f7e-a3bc-0938c9907977",
+          "type": "size",
+          "value": "55",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "06818b19-8fe7-4d65-89d9-5afdda1aad0e",
+      "name": "Franklin Gothic — 23pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "d1f1df19-588e-434d-a8c9-9580e4e6e3bf",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "06818b19-8fe7-4d65-89d9-5afdda1aad0e",
+          "type": "custom",
+          "value": "Franklin Gothic",
+          "key": "family"
+        },
+        {
+          "id": "06818b19-8fe7-4d65-89d9-5afdda1aad0e",
+          "type": "custom",
+          "value": "Medium",
+          "key": "weight"
+        },
+        {
+          "id": "06818b19-8fe7-4d65-89d9-5afdda1aad0e",
+          "type": "size",
+          "value": "23",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "000bb486-9385-440b-a4a1-8871f1d00fd6",
+      "name": "Cooper — 55pt",
+      "tags": [],
+      "related_entity_ids": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "fabd9c00-52f9-4614-8ca0-5f7205b948e4",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "000bb486-9385-440b-a4a1-8871f1d00fd6",
+          "type": "custom",
+          "value": "Cooper",
+          "key": "family"
+        },
+        {
+          "id": "000bb486-9385-440b-a4a1-8871f1d00fd6",
+          "type": "custom",
+          "value": "Black",
+          "key": "weight"
+        },
+        {
+          "id": "000bb486-9385-440b-a4a1-8871f1d00fd6",
+          "type": "size",
+          "value": "55",
+          "key": "size"
+        }
+      ]
+    }
+  ]
+}

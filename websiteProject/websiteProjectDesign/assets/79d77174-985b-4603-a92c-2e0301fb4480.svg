@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="992" height="34" viewBox="0 0 992 34">
+  <g id="orderPageTableHeader" transform="translate(1)">
+    <text id="ITEM" transform="translate(33 27)" fill="#fff" font-size="30" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.042em"><tspan x="-33.201" y="0">ITEM</tspan></text>
+    <text id="PRICE" transform="translate(490 27)" fill="#fff" font-size="30" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.042em"><tspan x="-41.88" y="0">PRICE</tspan></text>
+    <text id="QUANTITY" transform="translate(922 27)" fill="#fff" font-size="30" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.042em"><tspan x="-68.431" y="0">QUANTITY</tspan></text>
+  </g>
+</svg>

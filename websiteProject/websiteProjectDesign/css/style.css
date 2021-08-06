@@ -1,0 +1,222 @@
+html {
+  background-color: #7a7a7a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr 16px)[11] 1fr;
+      grid-template-columns: repeat(11, 1fr 16px) 1fr;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#companyLogo {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+div.nav {
+  -ms-grid-column: 9;
+      grid-column-start: 9;
+  grid-column-end: 18;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 540px;
+  height: 110px;
+}
+
+div.home {
+  height: 110px;
+  width: 180px;
+}
+
+div.home h3 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+div.home :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+
+div.home > a#home {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+div.menu {
+  height: 110px;
+  width: 180px;
+}
+
+div.menu h3 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+div.menu :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+
+div.menu > a#menu {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+div.catering {
+  height: 110px;
+  width: 180px;
+}
+
+div.catering h3 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+div.catering :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+
+div.catering > a#catering {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+header > p {
+  -ms-grid-column: -6;
+      grid-column-start: -6;
+  grid-column-end: -4;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  font-size: small;
+}
+
+header > p > a {
+  color: #1a1a1a;
+}
+
+a#createAnOrder {
+  -ms-grid-column: -4;
+      grid-column-start: -4;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column-align: right;
+      justify-self: right;
+}
+
+a#viewCart {
+  grid-column: -2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+a#viewCart > :hover {
+  padding: 5px;
+  background-color: #0d8841;
+  border-radius: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+div.mainContainer {
+  min-height: 900px;
+}
+
+.lowerContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 40% 40%;
+      grid-template-columns: 20% 40% 40%;
+  height: 500px;
+  background-image: url("/imgAssets/bottomMenuImg.png");
+}
+
+.lowerContainer > .lowerNav {
+  height: 100%;
+}
+
+.lowerContainer > .lowerNav > ul {
+  padding-top: 150px;
+  list-style: none;
+  font-size: x-large;
+}
+
+.lowerContainer > .lowerNav > ul > li {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.lowerContainer > .lowerNav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+div.rewards a {
+  margin-top: 225px;
+}
+
+div.rewards {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+}
+
+img#btnRewards {
+  width: 90%;
+  margin-top: 225px;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80% 20%;
+      grid-template-columns: 80% 20%;
+  padding-right: 75px;
+  height: 100px;
+  background-color: #1a1a1a;
+}
+
+footer > p {
+  font-size: large;
+  margin: 0;
+  color: #0d8841;
+  padding-left: 3%;
+  padding-top: 45px;
+  letter-spacing: 0.2em;
+}
+
+div.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

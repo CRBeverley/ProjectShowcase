@@ -1,0 +1,259 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2021-08-05T18:38:57.851Z",
+  "entities": [
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "a118c083-e4c5-4e06-bcb1-494043b32bad",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "addToCartScrollMenu",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "d9c0d254-62ed-45f7-b092-4cdbf7e773d7",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "509b0262-6cf3-4208-96b9-5fe1865d070a",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "btnOrderPageCheckOut",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "0c03016f-5df8-450c-a64a-1e50be3c3c03",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "65644650-fe52-4f20-a96b-25b19425b033",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "btnRemoveItem",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "6e472143-c52b-48e4-bf44-42b8e3f36aad",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "eb2fd189-80a3-444e-9d67-78e2ae5a5aaa",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "btnSignInJoinRewards",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "56864e09-68f2-4be4-a556-65df8f5c2f7c",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "fd8c0800-75f6-44e2-a5b7-23b66bdd604d",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "btnYellowAddToCart",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "6466f661-5752-41ac-b3b9-9974b1479300",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "e24e9100-e8e1-4564-8baf-4288c03275b2",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "callToActionButton",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "30121da6-c5dc-405c-94d4-65b08156eeac",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "6e71fea6-466b-4885-bbb7-a46e45dcfb5c",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "companyLogo",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "acf09f49-a1f0-424c-b1a0-b765e5662bb5",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "hamburgerMenu",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "a3a7ed67-0fb0-4e90-9bd9-8c5af21b1933",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "725b5041-9aee-4b9a-a863-b405a7123be4",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "iconCart",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "64badafc-b4fe-46f9-a86f-4ad199497ce4",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "d4d3c69b-f94e-448f-9e71-9b623aad4ce0",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "lowerMenuNav",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "aac55bc4-27b4-4897-841c-0c7131cccefe",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "1fae3405-b0a0-4f5f-9da0-2e610a68ab1e",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "menuPageItems",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "041cda4d-24fc-497e-beaf-4aac8fb87295",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "61850f4d-af60-4a2c-81a1-677d981a176b",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "NavItem",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "2339ac32-9472-4bc9-a227-bb4af19b637b",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "632939e6-7f03-459d-bfec-051bad9e1f67",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "orderPageTable",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "6b8057e9-0454-4841-9796-9683120e8ccb",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "2039a66d-b2f2-4256-9d43-60e1e33b46be",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "orderPageTableHeader",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/ce9ee377-4c6f-4203-41f9-aefd1a6178f7",
+        "id": "79d77174-985b-4603-a92c-2e0301fb4480",
+        "last_sync": "2021-08-05T18:38:57.850Z",
+        "sync": true
+      }
+    }
+  ]
+}

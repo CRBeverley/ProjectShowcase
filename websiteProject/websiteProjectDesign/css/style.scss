@@ -1,0 +1,185 @@
+//style.css is Main style for all fixed items in all pages
+html {
+  background-color: #7a7a7a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr 16px) 1fr;
+  column-gap: 16px;
+  align-items: center;
+}
+#companyLogo {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+//NAV DIV
+div.nav {
+  grid-column-start: 9;
+  grid-column-end: 18;
+  display: flex;
+  width: 540px;
+  height: 110px;
+}
+
+//HOME BUTTON
+div.home {
+  height: 110px;
+  width: 180px;
+  h3 {
+    margin-top: 45px;
+    text-align: center;
+  }
+}
+div.home :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+div.home > a#home {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+//MENU BUTTON
+div.menu {
+  height: 110px;
+  width: 180px;
+  h3 {
+    margin-top: 45px;
+    text-align: center;
+  }
+}
+div.menu :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+div.menu > a#menu {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+//CATERING BUTTON
+div.catering {
+  height: 110px;
+  width: 180px;
+  h3 {
+    margin-top: 45px;
+    text-align: center;
+  }
+}
+div.catering :hover {
+  border-radius: 10px;
+  background-color: #0d8841;
+}
+div.catering > a#catering {
+  position: absolute;
+  width: 180px;
+  height: 110px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+header > p {
+  grid-column-start: -6;
+  grid-column-end: -4;
+  grid-row: 1;
+  justify-self: right;
+  font-size: small;
+
+  > a {
+    color: #1a1a1a;
+  }
+}
+
+a#createAnOrder {
+  grid-column-start: -4;
+  grid-row: 1;
+  justify-self: right;
+}
+
+a#viewCart {
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: start;
+  > :hover {
+    padding: 5px;
+    background-color: #0d8841;
+    border-radius: 15px;
+  }
+}
+body {
+  margin: 0;
+}
+
+div.mainContainer {
+  min-height: 900px;
+}
+
+.lowerContainer {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  height: 500px;
+  background-image: url("/imgAssets/bottomMenuImg.png");
+
+  > .lowerNav {
+    height: 100%;
+    > ul {
+      // text-align: center;
+      padding-top: 150px;
+
+      list-style: none;
+
+      font-size: x-large;
+      > li {
+        text-align: center;
+        margin-bottom: 50px;
+
+        > a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+div.rewards a {
+  margin-top: 225px;
+}
+div.rewards {
+  grid-column-start: 3;
+}
+img#btnRewards {
+  width: 90%;
+  margin-top: 225px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding-right: 75px;
+  height: 100px;
+  background-color: #1a1a1a;
+
+  > p {
+    font-size: large;
+    margin: 0;
+    color: #0d8841;
+    padding-left: 3%;
+    padding-top: 45px;
+    letter-spacing: 0.2em;
+  }
+}
+
+div.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

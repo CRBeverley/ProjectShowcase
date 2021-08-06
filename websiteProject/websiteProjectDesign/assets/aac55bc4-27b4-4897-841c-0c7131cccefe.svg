@@ -1,0 +1,6 @@
+<svg id="lowerMenuNav" xmlns="http://www.w3.org/2000/svg" width="290" height="346" viewBox="0 0 290 346">
+  <rect id="Rectangle_14" data-name="Rectangle 14" width="290" height="346" fill="none"/>
+  <text id="Cart" transform="translate(70 268)" fill="#fff" font-size="35" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.098em"><tspan x="0" y="0">Cart</tspan></text>
+  <text id="Catering" transform="translate(70 185)" fill="#fff" font-size="35" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.098em"><tspan x="0" y="0">Catering</tspan></text>
+  <text id="Menu" transform="translate(70 102)" fill="#fff" font-size="35" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500" letter-spacing="0.098em"><tspan x="0" y="0">Menu</tspan></text>
+</svg>
