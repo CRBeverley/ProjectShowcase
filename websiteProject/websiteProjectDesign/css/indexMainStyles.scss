@@ -1,0 +1,195 @@
+//STYLES FOR INDEX MAIN CONTAINER
+//GRID GOES TO 28
+//MAIN LAYOUT --------------------
+div.mainContainer {
+  display: grid;
+  // grid-template-columns: repeat(13, 1fr 16px) 1fr;
+  grid-template-columns: 16px repeat(3, 1fr 16px);
+  grid-template-rows: 1.6fr 0.8fr 1.5fr 1.5fr;
+
+  // grid-template-rows: 82vh 31vh 67vh 67vh;
+  // grid-template-rows: 705px 263px 571px 571px;
+}
+div.mainImg {
+  grid-column: 1 / 5;
+}
+
+div.rowTwo {
+  grid-column: 1 / 8;
+  grid-row: 2;
+  // height: 263px;
+  // height: 100%;
+  width: 100%;
+  background-color: #d39894;
+  //!FOR TESTING
+  display: flex;
+  //  align-items: center;
+  //justify-content: center;
+  //!END FOR TESTING
+  //overflow: scroll;
+  // overflow-x: scroll;
+  // white-space: nowrap;
+}
+div.rowThree {
+  grid-column: 1 / 4;
+  grid-row: 3;
+  height: 100%;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+div.rowThreeImg {
+  grid-column: 4 / 8;
+}
+div.rowFour {
+  grid-column: 6 / 8;
+  grid-row: 4;
+  height: 100%;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+div.rowFourImg {
+  grid-column: 1 / 6;
+}
+
+//ROW 1 STYLES-----------------------
+
+img#mainImg {
+  height: 100%;
+  width: 100%;
+}
+
+div.rowOne {
+  height: 100%;
+  width: 100%;
+
+  background-color: #1a1a1a;
+  grid-column: 5 / 8;
+  > .rowOneText {
+    > h2 {
+      padding-top: 7vh;
+      padding-bottom: 3vh;
+      text-align: center;
+      font-size: 2vw;
+      color: #fff;
+    }
+    > h3 {
+      text-align: center;
+      font-size: 1.3vw;
+      line-height: 42px;
+      color: #fff;
+    }
+  }
+}
+div.rowOneOrderBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13vh;
+  margin-bottom: 6vh;
+}
+div.rowOne #orderNow {
+  width: 20vw;
+}
+//ROW 2 STYLES ----------------------
+div.addToCartScroll {
+  //!FOR TESTING
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  //justify-content: space-around;
+  // TODO FIX SCROLL BAR TO DISAPPEAR AND STILL FUNCTION-------------
+  // !END FOR TESTING
+  //overflow: scroll;
+  overflow-x: scroll;
+  // ::-webkit-scrollbar {
+  //   width: 0;
+  // }
+  //white-space: nowrap;
+}
+div.addToCartScroll > div {
+  min-width: 23vw;
+  height: 90%;
+  margin-right: 1vw;
+  //width: 23vw;
+  border-radius: 25px;
+  //background-color: #fff;
+}
+div.addToCartScroll img {
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+//ROW 3 STYLES ----------------------
+img#dessertImg1 {
+  width: 100%;
+  height: 100%;
+}
+div.rowThreeText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10vh;
+  color: #fff;
+  > h2 {
+    font-size: 2vw;
+  }
+  > h3 {
+    width: 75%;
+    margin-top: 7vh;
+    text-align: center;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 5vh;
+  }
+}
+
+div.rowThreeOrderBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  img#orderNow {
+    width: 20vw;
+  }
+}
+
+//ROW 4 STYLES ----------------------
+img#dessertImg2 {
+  width: 100%;
+  height: 100%;
+}
+div.rowFourText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10vh;
+  color: #fff;
+  > h2 {
+    width: 75%;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 2vw;
+  }
+  > h3 {
+    width: 75%;
+    margin-top: 7vh;
+    text-align: center;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 5vh;
+  }
+}
+
+div.rowFourOrderBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  img#orderNow {
+    width: 20vw;
+  }
+}

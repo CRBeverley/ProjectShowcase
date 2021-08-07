@@ -123,13 +123,15 @@ div.mainContainer {
   min-height: 900px;
 }
 img#bottomMenuImg {
-  height: 500px;
+  width: 2fr;
+  height: 1fr;
+  // height: 500px;
 }
 
 .lowerContainer {
   display: grid;
   grid-template-columns: 10% 50% 40%;
-  height: 500px;
+  height: 1fr;
 
   > .lowerNav {
     height: 100%;
