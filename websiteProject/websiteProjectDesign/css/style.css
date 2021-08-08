@@ -103,6 +103,14 @@ div.action {
           justify-content: space-evenly;
 }
 
+a#signIn {
+  color: #1a1a1a;
+}
+
+a#signIn ::after {
+  color: #1a1a1a;
+}
+
 img#createAnOrder {
   width: 11vw;
 }
@@ -116,6 +124,7 @@ img#viewCart {
   display: grid;
   -ms-grid-columns: 10% 50% 40%;
       grid-template-columns: 10% 50% 40%;
+  height: 50vh;
 }
 
 img#bottomMenuImg {
@@ -125,8 +134,7 @@ img#bottomMenuImg {
   -ms-grid-row: 1;
   grid-row: 1;
   width: 100%;
-  height: 100%;
-  max-height: 29vw;
+  height: 50vh;
 }
 
 div.lowerNav {
@@ -145,7 +153,7 @@ div.lowerNav {
 }
 
 div.lowerNav > ul {
-  padding-top: 5vw;
+  padding-top: 4vw;
   list-style: none;
   font-size: 1.5vw;
 }
