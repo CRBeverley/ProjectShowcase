@@ -3,8 +3,8 @@ div.mainContainer {
   display: grid;
   -ms-grid-columns: 16px (1fr 16px)[3];
       grid-template-columns: 16px repeat(3, 1fr 16px);
-  -ms-grid-rows: 1.6fr 0.8fr 1.5fr 1.5fr;
-      grid-template-rows: 1.6fr 0.8fr 1.5fr 1.5fr;
+  -ms-grid-rows: 35vw 17vw 31vw 31vw;
+      grid-template-rows: 35vw 17vw 31vw 31vw;
 }
 
 div.mainImg {
@@ -75,8 +75,8 @@ div.rowOne {
 }
 
 div.rowOne > .rowOneText > h2 {
-  padding-top: 7vh;
-  padding-bottom: 3vh;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
   text-align: center;
   font-size: 2vw;
   color: #fff;
@@ -85,7 +85,7 @@ div.rowOne > .rowOneText > h2 {
 div.rowOne > .rowOneText > h3 {
   text-align: center;
   font-size: 1.3vw;
-  line-height: 42px;
+  line-height: 5vw;
   color: #fff;
 }
 
@@ -99,7 +99,7 @@ div.rowOneOrderBtn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 13vh;
+  margin-top: 3vw;
   margin-bottom: 6vh;
 }
 
@@ -149,7 +149,7 @@ div.rowThreeText {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 10vh;
+  padding-top: 5vw;
   color: #fff;
 }
 
@@ -159,11 +159,11 @@ div.rowThreeText > h2 {
 
 div.rowThreeText > h3 {
   width: 75%;
-  margin-top: 7vh;
+  margin-top: 3vw;
   text-align: center;
   font-size: 1.3vw;
   letter-spacing: 0.1vw;
-  line-height: 5vh;
+  line-height: 3vw;
 }
 
 div.rowThreeOrderBtn {
@@ -176,8 +176,8 @@ div.rowThreeOrderBtn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 6vh;
-  margin-bottom: 6vh;
+  margin-top: 1vw;
+  margin-bottom: 6vw;
 }
 
 div.rowThreeOrderBtn img#orderNow {
@@ -202,24 +202,24 @@ div.rowFourText {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 10vh;
+  padding-top: 3vw;
   color: #fff;
 }
 
 div.rowFourText > h2 {
   width: 75%;
   text-align: center;
-  line-height: 5vh;
+  line-height: 3vw;
   font-size: 2vw;
 }
 
 div.rowFourText > h3 {
   width: 75%;
-  margin-top: 7vh;
+  margin-top: 1vw;
   text-align: center;
   font-size: 1.3vw;
   letter-spacing: 0.1vw;
-  line-height: 5vh;
+  line-height: 3vw;
 }
 
 div.rowFourOrderBtn {
@@ -232,8 +232,8 @@ div.rowFourOrderBtn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 6vh;
-  margin-bottom: 6vh;
+  margin-top: 1vw;
+  margin-bottom: 6vw;
 }
 
 div.rowFourOrderBtn img#orderNow {
