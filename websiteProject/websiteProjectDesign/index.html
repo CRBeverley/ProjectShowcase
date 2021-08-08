@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The DigIn Cafe</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/indexMainStyles.css">
     <!-- !TODO ADD A FAVICON? -->
   </head>
@@ -18,18 +19,22 @@
     <header>
 
       <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
-      <img id="companyLogo" src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg" alt="The DigIn Cafe">
+      <div class="logo"><a href="index.html">
+      <img id="companyLogo" src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg" alt="The DigIn Cafe"></a>
+      </div>
 
       <!-- NAV LINKS MAIN -->
         <div class="nav">
-        <div class="home"><a id ="home" href="index.html"><h3>Home</h3></a></div>
+        <div class="home"><a id ="menu" href="index.html"><h3>Home</h3></a></div>
 
         <div class="menu"><a id ="menu" href="menu.html"><h3>Menu</h3></a></div>
 
-        <div class="catering"><a id ="catering" href="catering.html"><h3>Catering</h3></a></div>
+        <div class="catering"><a id ="menu" href="catering.html"><h3>Catering</h3></a></div>
       </div>
       <!-- END NAV LINKS -->
 
+      <!-- SIGN IN  -->
+      <div class="action">
       <p><a href="login.html" id="signIn" >Sign In or Join</a></p>
 
       <!-- CREATE ORDER BUTTON -->
@@ -38,9 +43,9 @@
 
 
       <!-- VIEW CART BUTTON -->
-      <a href="order.html" id="viewCart">
+        <a href="order.html" id="viewCart">
         <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="viewCart" ></a>
-
+      </div>
     </header>
 <!-- ! END OF HEADER ------------------------>
 
@@ -147,11 +152,11 @@
       <p>This website is for a Web Technologies class and no products or services are available for purchase  </p>
 
       <div class="links">
-      <a href="https://www.instagram.com" id="instagram"><img src="imgAssets/iconInstagram.png" alt="instagram"></a>
+      <a href="https://www.instagram.com" id="instagram"><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon" ></a>
 
-      <a href="https://www.twitter.com"><img src="imgAssets/iconTwitter.png" id="twitter" alt="twitter"></a>
+      <a href="https://www.twitter.com"><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"></a>
 
-      <a href="https://www.facebook.com"><img src="imgAssets/iconFacebook.png" id="facebook" alt="facebook"></a>
+      <a href="https://www.facebook.com"><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"></a>
 
       </div>
 
