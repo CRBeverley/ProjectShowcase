@@ -139,8 +139,8 @@ img#bottomMenuImg {
 
 @media only screen and (max-width: 1200px) {
   .lowerContainer {
-    -ms-grid-columns: 10% 45% 55%;
-        grid-template-columns: 10% 45% 55%;
+    -ms-grid-columns: 10% 45% 45%;
+        grid-template-columns: 10% 45% 45%;
     height: 30vh;
   }
   img#bottomMenuImg {
@@ -183,7 +183,7 @@ div.lowerNav > ul > li > a {
     padding-top: 2vw;
   }
   img#btnRewards {
-    padding-bottom: 2vh;
+    margin-bottom: 3.5vh;
   }
 }
 
