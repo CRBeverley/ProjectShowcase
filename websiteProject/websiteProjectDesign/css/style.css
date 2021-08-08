@@ -137,6 +137,15 @@ img#bottomMenuImg {
   height: 50vh;
 }
 
+@media only screen and (max-width: 1200px) {
+  .lowerContainer {
+    height: 30vh;
+  }
+  img#bottomMenuImg {
+    height: 30vh;
+  }
+}
+
 div.lowerNav {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
