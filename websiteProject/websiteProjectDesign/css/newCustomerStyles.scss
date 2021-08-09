@@ -60,9 +60,16 @@ fieldset#createAccount input.input {
   border-radius: 5px;
 }
 input#btnCreateAccount {
-  margin-top: 5vh;
+  margin-top: 5vmin;
   // float: left;
   margin-left: 12.5%;
   margin-right: 12.5%;
   width: 75%;
+}
+div.createAccount input#userName {
+  margin-bottom: 8vmin;
+}
+a#backToSignIn {
+  font-size: 2vmin;
+  color: #fff;
 }

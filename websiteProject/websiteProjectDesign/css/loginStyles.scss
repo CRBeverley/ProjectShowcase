@@ -11,17 +11,24 @@ div.login {
   border-radius: 20px;
   margin-top: 5vmin;
   margin-bottom: 5vmin;
-  animation-name: slideRight;
-  animation-duration: 2s;
+  position: relative;
+  animation-name: appearBottomLogin;
+  animation-duration: 0.5s;
 }
-@keyframes slideRight {
+@keyframes appearBottomLogin {
   0% {
-    left: 0vw;
+    top: 100vh;
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
   }
   100% {
-    left: 150vw;
+    top: 0vh;
+    opacity: 1;
   }
 }
+
 fieldset#login {
   border: none;
   display: flex;
