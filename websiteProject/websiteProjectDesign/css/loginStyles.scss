@@ -10,6 +10,17 @@ div.login {
   background-color: #1a1a1a;
   border-radius: 20px;
   margin-top: 5vmin;
+  margin-bottom: 5vmin;
+  animation-name: slideRight;
+  animation-duration: 2s;
+}
+@keyframes slideRight {
+  0% {
+    left: 0vw;
+  }
+  100% {
+    left: 150vw;
+  }
 }
 fieldset#login {
   border: none;
@@ -44,7 +55,7 @@ div.signIn {
   margin-bottom: 3vh;
 }
 
-div.signIn > span {
+div.signIn > a#createAccountLink {
   font-size: 1vw;
   text-decoration: underline;
   color: #fff;

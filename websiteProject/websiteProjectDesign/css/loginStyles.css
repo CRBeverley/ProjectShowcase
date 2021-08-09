@@ -15,6 +15,29 @@ div.login {
   background-color: #1a1a1a;
   border-radius: 20px;
   margin-top: 5vmin;
+  margin-bottom: 5vmin;
+  -webkit-animation-name: slideRight;
+          animation-name: slideRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    left: 0vw;
+  }
+  100% {
+    left: 150vw;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    left: 0vw;
+  }
+  100% {
+    left: 150vw;
+  }
 }
 
 fieldset#login {
@@ -64,7 +87,7 @@ div.signIn {
   margin-bottom: 3vh;
 }
 
-div.signIn > span {
+div.signIn > a#createAccountLink {
   font-size: 1vw;
   text-decoration: underline;
   color: #fff;

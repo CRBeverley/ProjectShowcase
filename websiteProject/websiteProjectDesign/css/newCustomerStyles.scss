@@ -1,6 +1,23 @@
 div.createAccount {
   grid-column: 1 / 6;
   grid-row: 3 / 4;
+  display: none;
+  position: relative;
+  animation-name: appearBottom;
+  animation-duration: 1s;
+}
+@keyframes appearBottom {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    top: 0vh;
+    opacity: 1;
+  }
 }
 fieldset#createAccount {
   border: none;
@@ -10,7 +27,7 @@ fieldset#createAccount {
   justify-content: space-evenly;
   padding-bottom: 5vh;
   background-color: #1a1a1a;
-  margin: 5vw 10vw 5vw 10vw;
+  margin: 2vw 10vw 5vw 10vw;
   border-radius: 25px;
   color: #fff;
   > legend {
@@ -28,17 +45,16 @@ fieldset#createAccount div.column2 {
   width: 20%;
 }
 
-div.column1 {
-}
 fieldset#createAccount label {
   display: block;
   padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
   font-size: 2vmin;
 }
 fieldset#createAccount input.input {
   width: 100%;
-  padding: 0;
+  padding-top: 0;
+  margin-bottom: 3vh;
   border: 0;
   height: 3vh;
   border-radius: 5px;
