@@ -1,0 +1,52 @@
+div.createAccount {
+  grid-column: 1 / 6;
+  grid-row: 3 / 4;
+}
+fieldset#createAccount {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 5vh;
+  background-color: #1a1a1a;
+  margin: 5vw 10vw 5vw 10vw;
+  border-radius: 25px;
+  color: #fff;
+  > legend {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 3.5vmin;
+  }
+}
+fieldset#createAccount div.column1 {
+  order: 1;
+  width: 20%;
+}
+fieldset#createAccount div.column2 {
+  order: 2;
+  width: 20%;
+}
+
+div.column1 {
+}
+fieldset#createAccount label {
+  display: block;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 2vmin;
+}
+fieldset#createAccount input.input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  height: 3vh;
+  border-radius: 5px;
+}
+input#btnCreateAccount {
+  margin-top: 5vh;
+  // float: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
+}

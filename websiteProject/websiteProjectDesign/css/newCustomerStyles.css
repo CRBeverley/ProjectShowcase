@@ -1,0 +1,71 @@
+div.createAccount {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+}
+
+fieldset#createAccount {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 5vh;
+  background-color: #1a1a1a;
+  margin: 5vw 10vw 5vw 10vw;
+  border-radius: 25px;
+  color: #fff;
+}
+
+fieldset#createAccount > legend {
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 3.5vmin;
+}
+
+fieldset#createAccount div.column1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 20%;
+}
+
+fieldset#createAccount div.column2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 20%;
+}
+
+fieldset#createAccount label {
+  display: block;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 2vmin;
+}
+
+fieldset#createAccount input.input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+input#btnCreateAccount {
+  margin-top: 5vh;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  width: 75%;
+}

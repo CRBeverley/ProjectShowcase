@@ -7,6 +7,7 @@
     <title>The DigIn Cafe</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/loginStyles.css">
+    <link rel="stylesheet" href="css/newCustomerStyles.css">
   </head>
   <body>
 
@@ -45,29 +46,55 @@
 <!-- ! END OF HEADER ------------------------>
 <div class="mainContainer">
   <div class="login">
-    
+    <fieldset id="login">
+      <legend>Please Sign In</legend>
     <form action="http://www.example.com" method="post" id="login" >
-      <div class="subgrid">
-      <div class="username">
+      <!-- <div class="username"> -->
         <label for="username" id="userName">User Name</label>
         <input type="text" name="userName" id="userName" required>
-      </div>
-      <div class="password">
+      <!-- </div> -->
+      <!-- <div class="password"> -->
         <label for="password">Password</label>
         <input type="text" name="password" id="password" required>
-      </div>
-      <div class="createAccount"><span>Create an Account</span></div>
+      <!-- </div> -->
       <div class="signIn">
-        
+        <span>Create an Account</span>
         <input type="image" src="imgAssets/btnSignIn.png" alt="Sign In" id="signIn">
       </div>
-      </div>
-      </div>
+    </fieldset>
     </div>
   </form>
   
+  <div class="createAccount">
+    <form action="http://www.example.com" method="post" id="createAccount" >
+    <fieldset id="createAccount">
+      <legend>Fill Out the Information Below</legend>
+      <form action="http://www.example.com" method="post" id="createAccount" ></form>
+      <div class="column1">
+        <label for="firstName" id="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" class="input" required>
+        <label for="addressOne" id="addressOne">Address 1</label>
+         <input type="text" name="addressOne" id="addressOne" class="input" required>
+        <label for="addressTwo" id="addressTwo">Address 2</label>
+         <input type="text" name="addressTwo" id="addressTwo" class="input">
+        <label for="userName" id="userName">User Name</label>
+          <input type="text" name="userName" id="userName" class="input" required>
+      </div>
+      <div class="column2">     
+      <label for="lastName" id="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" class="input" required>      
+      <label for="zipcode" id="zipcode">Zipcode</label>
+        <input type="text" name="zipcode" id="zipcode" class="input" required>      
+      <label for="phoneNumber" id="phoneNumber">Phone Number</label>
+        <input type="text" name="phoneNumber" id="phoneNumber" class="input" required>     
+      <label for="password" id="password">Password</label>
+        <input type="text" name="password" id="password" class="input" required>
+        <input type="image" src="imgAssets/btnCreateAccount.png" alt="Create Account" id="btnCreateAccount" >
+      </div>
 
-  
+    </fieldset>
+  </form>
+  </div>
 
 </div>
 
