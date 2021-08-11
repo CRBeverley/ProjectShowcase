@@ -1,0 +1,122 @@
+div.mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+  // height: 50vh;
+}
+
+//! IF CART EMPTY JAVASCRIPT TO DISPLAY div.cartEmpty-------------
+div.cartEmpty {
+  // display: none;
+  display: flex;
+  height: 25vmin;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  > span {
+    color: #fff;
+    font-size: 2vmax;
+    letter-spacing: 0.5vmin;
+  }
+}
+//! END CART EMPTY SECTION------------------------------------------
+
+//! CART TABLE STYLES-----------------------------------------------
+div.orderTable {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  // display: block;
+  display: none;
+}
+
+div.orderTable > table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+th#item {
+  width: 45%;
+}
+th#quantity {
+  width: 20%;
+}
+tr {
+  height: 10vh;
+}
+div.orderTable > table th {
+  color: #fff;
+  font-size: 2vmin;
+  hr#price {
+    width: 35%;
+  }
+  hr#quantity {
+    width: 50%;
+  }
+  hr#item {
+    width: 65%;
+  }
+}
+
+td#row2 {
+  text-align: center;
+}
+td#row3 {
+  text-align: center;
+}
+
+tr {
+  border-bottom: 3px solid rgba($color: #000000, $alpha: 0.08);
+}
+td {
+  // text-align: center;
+  color: #fff;
+  font-size: 1.8vmin;
+}
+td > img {
+  vertical-align: middle;
+}
+td#row1 img {
+  width: 6vmax;
+  margin-right: 5vmin;
+  margin-left: 5vmin;
+}
+td > input#qty {
+  display: inline-block;
+  width: 3vmin;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  justify-self: end;
+  margin-right: 5%;
+}
+input#btnRemoveItem {
+  vertical-align: middle;
+  width: 7vmin;
+}
+hr#total {
+  width: 50%;
+}
+tr#total {
+  border: none;
+  height: 5vmin;
+  span#totalPrice {
+    margin-left: 3vmin;
+  }
+  td {
+    text-align: center;
+  }
+}
+tr#checkOut {
+  height: 10vmin;
+  text-align: center;
+}
+
+input#btnCheckOut {
+  width: 50%;
+}

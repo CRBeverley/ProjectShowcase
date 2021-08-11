@@ -1,0 +1,152 @@
+div.mainContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr 1fr;
+      grid-template-columns: 1fr 3fr 1fr;
+  -ms-grid-rows: 1fr 5fr 1fr;
+      grid-template-rows: 1fr 5fr 1fr;
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+}
+
+div.cartEmpty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25vmin;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.cartEmpty > span {
+  color: #fff;
+  font-size: 2vmax;
+  letter-spacing: 0.5vmin;
+}
+
+div.orderTable {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #1a1a1a;
+  border-radius: 25px;
+  display: none;
+}
+
+div.orderTable > table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th#item {
+  width: 45%;
+}
+
+th#quantity {
+  width: 20%;
+}
+
+tr {
+  height: 10vh;
+}
+
+div.orderTable > table th {
+  color: #fff;
+  font-size: 2vmin;
+}
+
+div.orderTable > table th hr#price {
+  width: 35%;
+}
+
+div.orderTable > table th hr#quantity {
+  width: 50%;
+}
+
+div.orderTable > table th hr#item {
+  width: 65%;
+}
+
+td#row2 {
+  text-align: center;
+}
+
+td#row3 {
+  text-align: center;
+}
+
+tr {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
+}
+
+td {
+  color: #fff;
+  font-size: 1.8vmin;
+}
+
+td > img {
+  vertical-align: middle;
+}
+
+td#row1 img {
+  width: 6vmax;
+  margin-right: 5vmin;
+  margin-left: 5vmin;
+}
+
+td > input#qty {
+  display: inline-block;
+  width: 3vmin;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-right: 5%;
+}
+
+input#btnRemoveItem {
+  vertical-align: middle;
+  width: 7vmin;
+}
+
+hr#total {
+  width: 50%;
+}
+
+tr#total {
+  border: none;
+  height: 5vmin;
+}
+
+tr#total span#totalPrice {
+  margin-left: 3vmin;
+}
+
+tr#total td {
+  text-align: center;
+}
+
+tr#checkOut {
+  height: 10vmin;
+  text-align: center;
+}
+
+input#btnCheckOut {
+  width: 50%;
+}

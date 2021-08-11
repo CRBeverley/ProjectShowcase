@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The DigIn Cafe</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/order.css">
+    <script src="javascript/menuItems.js" defer></script>
+    <script src="javascript/cartIcon.js" defer></script>
+    <script src="javascript/cart.js" defer></script>
   </head>
   <body>
 
@@ -38,11 +42,59 @@
 
   <!-- VIEW CART BUTTON -->
     <a href="order.html" id="viewCart">
-    <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="viewCart" ></a>
+    <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="iconViewCart" ></a>
   </div>
 </header>
 <!-- ! END OF HEADER ------------------------>
 <div class="mainContainer">
+  <div class="cartEmpty">
+    <span>Your cart is currently Empty!</span>
+  </div>
+  <div class="orderTable">
+    <!-- ! TEST TABLE DELETE AFTER COMPLETE AND MOVE TO JAVASCRIPT -->
+
+    <!-- ? FIXED TABLE ITEMS -->
+    <!-- <table>
+      <tr>
+        <th id="item">ITEM<hr id="item"></th>          
+        <th id="price">PRICE<hr id="price"></th>
+        <th id="quantity">QUANTITY<hr id="quantity"></th>
+      </tr> -->
+      <!-- ? END FIXED TABLE ITEMS -->
+
+      <!--? VARIABLE TABLE ITEMS -->
+      <!-- <tr>
+        <td id="row1"><img src="imgAssets/orderImg/pizza.png" alt="Pizza"><span>Ribs</span></td>
+        <td>$9.99</td>
+        <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
+        </tr>
+        <tr>
+          <td id="row1"><img src="imgAssets/orderImg/steak.png" alt="Pizza"><span>Ribss</span></td>
+          <td>$9.99</td>
+          <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
+          </tr>
+          <tr>
+            <td id="row1"><img src="imgAssets/orderImg/ribs.png" alt="Pizza"><span>Ribssaf</span></td>
+            <td>$9.99</td>
+            <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
+            </tr>
+            <tr>
+              <td id="row1"><img src="imgAssets/orderImg/chickenDinner.png" alt="Pizza"><span>Ribssafasf</span></td>
+              <td>$9.99</td>
+              <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
+              </tr> --> 
+      <!-- ? END VARIABLE TABLE ITEMS -->
+      <!-- <tr id="total">
+        <td colspan="2"></td>
+        <td><hr id="total">TOTAL <span id="totalPrice">$9.99</span></td>
+      </tr>
+      <tr id="checkOut">
+        <td colspan="2"></td>
+        <td><input type="image" src="imgAssets/orderImg/btnCheckOutNow.png" alt="Check Out" id="btnCheckOut"></td>
+      </tr>
+    </table> -->
+        <!-- ! END TEST TABLE DELETE AFTER COMPLETE -->
+  </div>
 
 </div>
 

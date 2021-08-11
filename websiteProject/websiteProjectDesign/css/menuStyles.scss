@@ -7,5 +7,16 @@
 div.mainContainer img {
   height: 100%;
   width: 100%;
+}
+
+div.mainContainer div {
   transition: ease-in-out;
+  transition-duration: 0.5s;
+  opacity: 0.85;
+}
+div.mainContainer div:hover {
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  opacity: 1;
+  transform: scale(1.05, 1.05);
 }
