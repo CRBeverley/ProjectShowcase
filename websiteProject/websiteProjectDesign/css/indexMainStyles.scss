@@ -1,7 +1,7 @@
 //STYLES FOR INDEX MAIN CONTAINER
 //GRID GOES TO 28
 //MAIN LAYOUT --------------------
-@media screen and (min-width: 601px) {
+@media screen and (min-device-width: 601px) {
   div.mainContainer {
     display: grid;
     // grid-template-columns: repeat(13, 1fr 16px) 1fr;
