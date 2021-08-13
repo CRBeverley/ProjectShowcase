@@ -97,6 +97,7 @@ img#viewCart {
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: 1fr;
     height: 15vw;
+    border-radius: 10px;
   }
   div.logo {
     grid-column: 1/2;
@@ -218,7 +219,9 @@ img#btnRewards {
     height: 15vh;
   }
   img#bottomMenuImg {
+    margin-top: 7vw;
     height: 15vh;
+    border-radius: 5px 5px 0px 0px;
   }
   img#btnRewards {
     margin: 0;
@@ -226,6 +229,11 @@ img#btnRewards {
   div.lowerNav ul {
     align-items: center;
     font-size: 3vw;
+  }
+
+  footer {
+    margin-top: 7vw;
+    border-radius: 0px 0px 5px 5px;
   }
 }
 //! END LOWER CONTAINER --------------

@@ -5,19 +5,26 @@ div.mainContainer {
   text-align: center;
 }
 img#mainImg {
+  margin-top: 2vw;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 div.rowOne {
   background-color: #1a1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   margin-top: 2vw;
   h2 {
-    font-size: 8vw;
+    font-size: 9vw;
   }
   h3 {
-    font-size: 6vw;
+    font-size: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 10vw;
+  }
+  img#orderNow {
+    margin-bottom: 5vw;
   }
 }
 div.addToCartScroll {
@@ -25,20 +32,49 @@ div.addToCartScroll {
 }
 div.rowThree {
   background-color: #1a1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
   color: #fff;
+  h2 {
+    font-size: 9vw;
+  }
+  h3 {
+    font-size: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
+    line-height: 10vw;
+  }
   img#orderNow {
     display: none;
   }
 }
 img#dessertImg1 {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
 }
 img#dessertImg2 {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
+}
+div.rowFour {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 2vw;
+  h2 {
+    font-size: 9vw;
+  }
+  h3 {
+    font-size: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
+    line-height: 10vw;
+  }
+  img#orderNow {
+    margin-bottom: 8vw;
+  }
 }

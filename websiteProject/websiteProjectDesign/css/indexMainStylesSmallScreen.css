@@ -12,23 +12,31 @@ div.mainContainer {
 }
 
 img#mainImg {
+  margin-top: 2vw;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 div.rowOne {
   background-color: #1a1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   margin-top: 2vw;
 }
 
 div.rowOne h2 {
-  font-size: 8vw;
+  font-size: 9vw;
 }
 
 div.rowOne h3 {
-  font-size: 6vw;
+  font-size: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  line-height: 10vw;
+}
+
+div.rowOne img#orderNow {
+  margin-bottom: 5vw;
 }
 
 div.addToCartScroll {
@@ -37,9 +45,21 @@ div.addToCartScroll {
 
 div.rowThree {
   background-color: #1a1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
   color: #fff;
+}
+
+div.rowThree h2 {
+  font-size: 9vw;
+}
+
+div.rowThree h3 {
+  font-size: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 8vw;
+  line-height: 10vw;
 }
 
 div.rowThree img#orderNow {
@@ -48,12 +68,35 @@ div.rowThree img#orderNow {
 
 img#dessertImg1 {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
 }
 
 img#dessertImg2 {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 2vw;
+}
+
+div.rowFour {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 2vw;
+}
+
+div.rowFour h2 {
+  font-size: 9vw;
+}
+
+div.rowFour h3 {
+  font-size: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 8vw;
+  line-height: 10vw;
+}
+
+div.rowFour img#orderNow {
+  margin-bottom: 8vw;
 }
