@@ -14,7 +14,6 @@
   <body>
     <!--! BEGIN HEADER---------------------------->
     <header>
-      <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
       <div class="logo">
         <a href="index.html">
           <img
@@ -37,12 +36,20 @@
         <div class="order">
           <a id="menu" href="order.html"><h3>Order</h3></a>
         </div>
+        <div class="hamMenu">
+          <a href="menu.html" id="hamMenu"
+            ><img
+              src="assets/a3a7ed67-0fb0-4e90-9bd9-8c5af21b1933.svg"
+              id="hamMenu"
+              alt="menu"
+          /></a>
+        </div>
       </div>
       <!-- END NAV LINKS -->
 
       <!-- SIGN IN  -->
       <div class="action">
-        <p><a href="login.html" id="signIn">Sign In or Join</a></p>
+        <a href="login.html" id="signIn">Sign In or Join</a>
 
         <!-- CREATE ORDER BUTTON -->
         <a href="menu.html" id="createAnOrder">
@@ -57,7 +64,7 @@
           <img
             src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg"
             alt="View Cart"
-            id="iconViewCart"
+            id="viewCart"
         /></a>
       </div>
     </header>
@@ -141,11 +148,12 @@
 
     <!--! END LOWER CONTAINER  ------------------->
     <footer>
-      <p>
-        This website is for a Web Technologies class and no products or services
-        are available for purchase
-      </p>
-
+      <div class="left">
+        <p>
+          This website is for a Web Technologies class and no products or
+          services are available for purchase
+        </p>
+      </div>
       <div class="links">
         <a href="https://www.instagram.com" id="instagram"
           ><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon"

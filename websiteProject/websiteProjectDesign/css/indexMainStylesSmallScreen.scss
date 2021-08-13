@@ -1,0 +1,44 @@
+div.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+img#mainImg {
+  width: 100%;
+  border-radius: 5px;
+}
+div.rowOne {
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 2vw;
+  h2 {
+    font-size: 8vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+}
+div.addToCartScroll {
+  display: none;
+}
+div.rowThree {
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  margin-top: 2vw;
+  color: #fff;
+  img#orderNow {
+    display: none;
+  }
+}
+img#dessertImg1 {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 2vw;
+}
+img#dessertImg2 {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 2vw;
+}

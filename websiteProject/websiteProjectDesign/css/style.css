@@ -86,6 +86,10 @@ div.order :hover {
   background-color: #0d8841;
 }
 
+div.hamMenu {
+  display: none;
+}
+
 div.action {
   -ms-grid-column: 11;
   -ms-grid-column-span: 5;
@@ -123,8 +127,8 @@ img#viewCart {
   header {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 1fr 2fr;
-        grid-template-columns: 2fr 1fr 2fr;
+    -ms-grid-columns: 1fr 2fr 2fr;
+        grid-template-columns: 1fr 2fr 2fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
     height: 15vw;
@@ -146,7 +150,7 @@ img#viewCart {
     grid-column: 2 / 3;
   }
   div.logo a {
-    width: 80%;
+    width: 100%;
   }
   img#companyLogo {
     margin-top: 4px;
@@ -160,12 +164,22 @@ img#viewCart {
     display: none;
   }
   div.menu {
-    width: 80%;
-    font-size: 6vw;
-    margin-right: 3vw;
+    display: none;
   }
-  div.menu h3 {
-    margin: 0;
+  div.hamMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 2vw;
+  }
+  img#hamMenu {
+    width: 100%;
   }
   div.action {
     -ms-grid-column: 3;

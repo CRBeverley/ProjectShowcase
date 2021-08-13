@@ -28,6 +28,7 @@ div.nav {
   height: 100%;
   justify-content: space-around;
 }
+
 //MENU ITEMS
 div.home {
   height: 100%;
@@ -63,6 +64,9 @@ div.order :hover {
   border-radius: 10px;
   background-color: #0d8841;
 }
+div.hamMenu {
+  display: none;
+}
 
 //header action area
 div.action {
@@ -90,7 +94,7 @@ img#viewCart {
 @media only screen and (max-width: 600px) {
   header {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: 1fr;
     height: 15vw;
   }
@@ -103,7 +107,7 @@ img#viewCart {
     grid-column: 2 / 3;
   }
   div.logo a {
-    width: 80%;
+    width: 100%;
   }
   img#companyLogo {
     margin-top: 4px;
@@ -117,12 +121,23 @@ img#viewCart {
     display: none;
   }
   div.menu {
-    width: 80%;
-    font-size: 6vw;
-    margin-right: 3vw;
-    h3 {
-      margin: 0;
-    }
+    display: none;
+    // width: 80%;
+    // font-size: 6vw;
+    // margin-right: 3vw;
+    // h3 {
+    //   margin: 0;
+    //   text-decoration: underline;
+    // }
+  }
+  div.hamMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+  }
+  img#hamMenu {
+    width: 100%;
   }
   div.action {
     grid-column: 3 / 4;
