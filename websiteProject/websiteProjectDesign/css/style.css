@@ -161,7 +161,11 @@ img#viewCart {
   }
   div.menu {
     width: 80%;
-    font-size: 4vmin;
+    font-size: 6vw;
+    margin-right: 3vw;
+  }
+  div.menu h3 {
+    margin: 0;
   }
   div.action {
     -ms-grid-column: 3;
@@ -169,7 +173,13 @@ img#viewCart {
     grid-column: 3 / 4;
   }
   a#signIn {
-    font-size: 1vmax;
+    display: none;
+  }
+  img#createAnOrder {
+    width: 25vw;
+  }
+  img#viewCart {
+    width: 7vw;
   }
 }
 
@@ -264,7 +274,7 @@ img#btnRewards {
     height: 15vh;
   }
   img#bottomMenuImg {
-    height: 100%;
+    height: 15vh;
   }
   img#btnRewards {
     margin: 0;
