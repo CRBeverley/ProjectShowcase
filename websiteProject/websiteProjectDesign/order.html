@@ -6,64 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The DigIn Cafe</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/order.css" />
     <script src="javascript/menuItems.js" defer></script>
     <script src="javascript/cartIcon.js" defer></script>
     <script src="javascript/cart.js" defer></script>
   </head>
   <body>
+    <!--! BEGIN HEADER---------------------------->
+    <header>
+      <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
+      <div class="logo">
+        <a href="index.html">
+          <img
+            id="companyLogo"
+            src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg"
+            alt="The DigIn Cafe"
+        /></a>
+      </div>
 
-<!--! BEGIN HEADER---------------------------->
-<header>
+      <!-- NAV LINKS MAIN -->
+      <div class="nav">
+        <div class="home">
+          <a id="menu" href="index.html"><h3>Home</h3></a>
+        </div>
 
-  <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
-  <div class="logo"><a href="index.html">
-  <img id="companyLogo" src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg" alt="The DigIn Cafe"></a>
-  </div>
+        <div class="menu">
+          <a id="menu" href="menu.html"><h3>Menu</h3></a>
+        </div>
 
-  <!-- NAV LINKS MAIN -->
-    <div class="nav">
-    <div class="home"><a id ="menu" href="index.html"><h3>Home</h3></a></div>
+        <div class="order">
+          <a id="menu" href="order.html"><h3>Order</h3></a>
+        </div>
+      </div>
+      <!-- END NAV LINKS -->
 
-    <div class="menu"><a id ="menu" href="menu.html"><h3>Menu</h3></a></div>
+      <!-- SIGN IN  -->
+      <div class="action">
+        <p><a href="login.html" id="signIn">Sign In or Join</a></p>
 
-    <div class="catering"><a id ="menu" href="catering.html"><h3>Catering</h3></a></div>
-  </div>
-  <!-- END NAV LINKS -->
+        <!-- CREATE ORDER BUTTON -->
+        <a href="menu.html" id="createAnOrder">
+          <img
+            src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg"
+            alt="Create An Order"
+            id="createAnOrder"
+        /></a>
 
-  <!-- SIGN IN  -->
-  <div class="action">
-  <p><a href="login.html" id="signIn" >Sign In or Join</a></p>
+        <!-- VIEW CART BUTTON -->
+        <a href="order.html" id="viewCart">
+          <img
+            src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg"
+            alt="View Cart"
+            id="iconViewCart"
+        /></a>
+      </div>
+    </header>
+    <!-- ! END OF HEADER ------------------------>
+    <div class="mainContainer">
+      <div class="cartEmpty">
+        <span>Your cart is currently Empty!</span>
+      </div>
+      <div class="orderTable">
+        <!-- ! TEST TABLE DELETE AFTER COMPLETE AND MOVE TO JAVASCRIPT -->
 
-  <!-- CREATE ORDER BUTTON -->
-  <a href="menu.html" id="createAnOrder">
-  <img src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg" alt="Create An Order" id="createAnOrder" ></a>
-
-
-  <!-- VIEW CART BUTTON -->
-    <a href="order.html" id="viewCart">
-    <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="iconViewCart" ></a>
-  </div>
-</header>
-<!-- ! END OF HEADER ------------------------>
-<div class="mainContainer">
-  <div class="cartEmpty">
-    <span>Your cart is currently Empty!</span>
-  </div>
-  <div class="orderTable">
-    <!-- ! TEST TABLE DELETE AFTER COMPLETE AND MOVE TO JAVASCRIPT -->
-
-    <!-- ? FIXED TABLE ITEMS -->
-    <!-- <table>
+        <!-- ? FIXED TABLE ITEMS -->
+        <!-- <table>
       <tr>
         <th id="item">ITEM<hr id="item"></th>          
         <th id="price">PRICE<hr id="price"></th>
         <th id="quantity">QUANTITY<hr id="quantity"></th>
       </tr> -->
-      <!-- ? END FIXED TABLE ITEMS -->
+        <!-- ? END FIXED TABLE ITEMS -->
 
-      <!--? VARIABLE TABLE ITEMS -->
-      <!-- <tr>
+        <!--? VARIABLE TABLE ITEMS -->
+        <!-- <tr>
         <td id="row1"><img src="imgAssets/orderImg/pizza.png" alt="Pizza"><span>Ribs</span></td>
         <td>$9.99</td>
         <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
@@ -82,9 +98,9 @@
               <td id="row1"><img src="imgAssets/orderImg/chickenDinner.png" alt="Pizza"><span>Ribssafasf</span></td>
               <td>$9.99</td>
               <td><input type="number" name="quantity" id="qty" value="1"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem">
-              </tr> --> 
-      <!-- ? END VARIABLE TABLE ITEMS -->
-      <!-- <tr id="total">
+              </tr> -->
+        <!-- ? END VARIABLE TABLE ITEMS -->
+        <!-- <tr id="total">
         <td colspan="2"></td>
         <td><hr id="total">TOTAL <span id="totalPrice">$9.99</span></td>
       </tr>
@@ -94,41 +110,55 @@
       </tr>
     </table> -->
         <!-- ! END TEST TABLE DELETE AFTER COMPLETE -->
-  </div>
+      </div>
+    </div>
 
-</div>
+    <!--! BEGIN LOWER CONTAINER  ---------------->
 
-<!--! BEGIN LOWER CONTAINER  ---------------->
-    
-<div class="lowerContainer">
-  <img src="imgAssets/bottomMenuImg.png" id="bottomMenuImg" alt="bacground image of coffe and oatmeal">
-  <div class="lowerNav">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="catering.html">Catering</a></li>
-</div>
-<div class="rewards">
-  <a href="login.html" >
-  <img id="btnRewards" src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg" alt="Join our rewards program today">
-</a>
-</div>
-</div>
+    <div class="lowerContainer">
+      <img
+        src="imgAssets/bottomMenuImg.png"
+        id="bottomMenuImg"
+        alt="bacground image of coffe and oatmeal"
+      />
+      <div class="lowerNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </div>
+      <div class="rewards">
+        <a href="login.html">
+          <img
+            id="btnRewards"
+            src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg"
+            alt="Join our rewards program today"
+          />
+        </a>
+      </div>
+    </div>
 
-<!--! END LOWER CONTAINER  ------------------->
-<footer>
-  <p>This website is for a Web Technologies class and no products or services are available for purchase  </p>
+    <!--! END LOWER CONTAINER  ------------------->
+    <footer>
+      <p>
+        This website is for a Web Technologies class and no products or services
+        are available for purchase
+      </p>
 
-  <div class="links">
-  <a href="https://www.instagram.com" id="instagram"><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon" ></a>
+      <div class="links">
+        <a href="https://www.instagram.com" id="instagram"
+          ><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon"
+        /></a>
 
-  <a href="https://www.twitter.com"><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"></a>
+        <a href="https://www.twitter.com"
+          ><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"
+        /></a>
 
-  <a href="https://www.facebook.com"><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"></a>
-
-  </div>
-
-
-</footer>
-</body>
+        <a href="https://www.facebook.com"
+          ><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>

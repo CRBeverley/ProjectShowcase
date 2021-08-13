@@ -1,11 +1,15 @@
 "use strict";
-// const scrollContainer = document.querySelector("addToCartScroll");
 
-// scrollContainer.onclick = function () {
-//   document.querySelector("addToCartScroll").scrollLeft += 20;
-// };
-
-// scrollContainer.addEventListener("wheel", (evt) => {
-//   evt.preventDefault();
-//   scrollContainer.scrollRight += evt.deltaY;
-// });
+for (let i = 1; i <= 10; i++) {
+  document.querySelector(`#item${i}`).addEventListener("click", function () {
+    itemQuantity[i - 1] = itemQuantity[i - 1] + 1;
+    totalQuantity = totalQuantity + 1;
+    cartIconChange();
+    sessionStorage["itemQuantity"] = JSON.stringify(itemQuantity);
+    // sessionStorage.setItem("totalQuantity", totalQuantity);
+    // localStorage["itemQuantity"] = JSON.stringify(itemQuantity);
+    //
+    //!LOG FOR TESTING PURPOSES REMOVE TODO
+    console.log(itemQuantity);
+  });
+}

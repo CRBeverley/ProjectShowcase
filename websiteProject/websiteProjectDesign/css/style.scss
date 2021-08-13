@@ -15,6 +15,7 @@ header {
 div.logo {
   grid-column: 1 / 5;
 }
+
 img#companyLogo {
   margin-left: 1vw;
   width: 95%;
@@ -54,11 +55,11 @@ div.menu :hover {
   border-radius: 10px;
   background-color: #0d8841;
 }
-div.catering {
+div.order {
   width: 30%;
   height: 100%;
 }
-div.catering :hover {
+div.order :hover {
   border-radius: 10px;
   background-color: #0d8841;
 }
@@ -84,6 +85,46 @@ img#createAnOrder {
 
 img#viewCart {
   width: 3vw;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    height: 15vw;
+  }
+  div.logo {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+  }
+  div.nav {
+    grid-column: 2 / 3;
+  }
+  div.logo a {
+    width: 80%;
+  }
+  img#companyLogo {
+    margin-top: 4px;
+    margin-left: 1vw;
+    width: 100%;
+  }
+  div.home {
+    display: none;
+  }
+  div.order {
+    display: none;
+  }
+  div.menu {
+    width: 80%;
+    font-size: 4vmin;
+  }
+  div.action {
+    grid-column: 3 / 4;
+  }
+  a#signIn {
+    font-size: 1vmax;
+  }
 }
 //!END HEADER ------------------------
 //! LOWER CONTAINER ------------------
@@ -116,10 +157,11 @@ div.lowerNav {
   display: flex;
   align-items: center;
   > ul {
-    padding-top: 4vw;
+    padding: 0;
     list-style: none;
     font-size: 1.5vw;
     > li {
+      margin-top: 5vw;
       margin-bottom: 5vw;
       > a {
         color: #fff;
@@ -129,9 +171,6 @@ div.lowerNav {
   }
 }
 @media only screen and (max-width: 1200px) {
-  div.lowerNav > ul {
-    padding-top: 2vw;
-  }
   img#btnRewards {
     margin-bottom: 3.5vh;
   }
@@ -145,24 +184,50 @@ div.rewards {
 img#btnRewards {
   width: 100%;
 }
+
+//!FOR SMALL SCREENS (SMARTPHONE)-----------------------------
+@media only screen and (max-width: 600px) {
+  .lowerContainer {
+    grid-template-columns: 5% 35% 60%;
+    height: 15vh;
+  }
+  img#bottomMenuImg {
+    height: 100%;
+  }
+  img#btnRewards {
+    margin: 0;
+  }
+  div.lowerNav ul {
+    align-items: center;
+    font-size: 3vw;
+  }
+}
 //! END LOWER CONTAINER --------------
 //! FOOTER ---------------------------
 footer {
   display: grid;
   grid-template-columns: 3fr 1fr;
   background-color: #1a1a1a;
-  > p {
-    font-size: 1.3vw;
-    color: #0d8841;
-    padding-left: 2vw;
-    letter-spacing: 0.1vw;
-  }
+}
+div.left {
+  display: flex;
+  align-items: center;
+}
+div.left > p {
+  font-size: 1.3vw;
+  color: #0d8841;
+  padding-left: 2vw;
+  letter-spacing: 0.1vw;
 }
 div.links {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  a {
+    display: flex;
+  }
 }
+
 img#xicon {
   width: 2vw;
 }

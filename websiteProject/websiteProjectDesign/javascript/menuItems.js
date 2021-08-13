@@ -6,6 +6,7 @@ let itemQuantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 //! ITEM BELOW CAUSING ERROR WHEN NO ITEMS IN CART BUT STILL FUNCTIONS
 itemQuantity = JSON.parse(sessionStorage["itemQuantity"]);
 
+//Would have been easier with objects instead
 const itemName = [
   "Italian Pizza",
   "Chicken Wings",
@@ -41,30 +42,3 @@ const itemPicture = [
   "dessertOne.png",
   "dessertTwo.png",
 ];
-
-// CHANGE THE 0 IN ITEMS TO i AFTER COMPLETED
-// let itemHTML =
-//   `<tr>` +
-//   `<td id="row1"><img src="imgAssets/orderImg/${itemPicture[i]}" alt="${itemName[i]}"><span>Italian Pizza</span></td>` +
-//   `<td>$${itemPrice[i]}</td>` +
-//   `<td><input type="number" name="quantity" id="qty" value="${itemQuantity[i]}"><input type="image" src="imgAssets/orderImg/btnRemoveItem.png" alt="Remove Item" id="btnRemoveItem"></td>` +
-//   `</tr>`;
-
-// const tableHeadHTML =
-//   "<table>" +
-//   "<tr>" +
-//   "<th id='item'>ITEM<hr id='item'></th>" +
-//   "<th id='price'>PRICE<hr id='price'></th>" +
-//   "<th id='quantity'>QUANTITY<hr id='quantity'></th>" +
-//   "</tr>";
-
-// const endTableHTML =
-//   "<tr id='total'>" +
-//   "<td colspan='2'></td>" +
-//   `<td><hr id='total'>TOTAL <span id='totalPrice'>$${orderTotal}</span></td>` +
-//   "</tr>" +
-//   "<tr id='checkOut'>" +
-//   "<td colspan='2'></td>" +
-//   "<td id='checkOut'><input type='image' src='imgAssets/orderImg/btnCheckOutNow.png' alt='Check Out' id='btnCheckOut'></td>" +
-//   "</tr>" +
-//   "</table>";

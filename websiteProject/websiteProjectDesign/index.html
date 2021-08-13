@@ -6,162 +6,277 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The DigIn Cafe</title>
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/indexMainStyles.css">
-    <script src="javascript/menuItems.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/indexMainStyles.css" />
+    <script src="javascript/menuItems.js" defer></script>
+    <script src="javascript/cartIcon.js"></script>
+    <script src="javascript/addToCartScroll.js" defer></script>
+
     <!-- !TODO ADD A FAVICON? -->
   </head>
   <body>
-    <script src="javascript/addToCartScroll.js" defer></script>
+    <!-- TODO! BELOW 1300PX VIEWPORT WIDTH REDESIGN AS TABLET VIEW -->
 
-<!-- TODO! BELOW 1300PX VIEWPORT WIDTH REDESIGN AS TABLET VIEW -->
-
-<!--! BEGIN HEADER---------------------------->
+    <!--! BEGIN HEADER---------------------------->
     <header>
-
       <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
-      <div class="logo"><a href="index.html">
-      <img id="companyLogo" src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg" alt="The DigIn Cafe"></a>
+      <div class="logo">
+        <a href="index.html">
+          <img
+            id="companyLogo"
+            src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg"
+            alt="The DigIn Cafe"
+        /></a>
       </div>
 
       <!-- NAV LINKS MAIN -->
-        <div class="nav">
-        <div class="home"><a id ="menu" href="index.html"><h3>Home</h3></a></div>
+      <div class="nav">
+        <div class="home">
+          <a id="menu" href="index.html"><h3>Home</h3></a>
+        </div>
 
-        <div class="menu"><a id ="menu" href="menu.html"><h3>Menu</h3></a></div>
+        <div class="menu">
+          <a id="menu" href="menu.html"><h3>Menu</h3></a>
+        </div>
 
-        <div class="catering"><a id ="menu" href="catering.html"><h3>Catering</h3></a></div>
+        <div class="order">
+          <a id="menu" href="order.html"><h3>Order</h3></a>
+        </div>
       </div>
       <!-- END NAV LINKS -->
 
       <!-- SIGN IN  -->
       <div class="action">
-      <p><a href="login.html" id="signIn" >Sign In or Join</a></p>
+        <a href="login.html" id="signIn">Sign In or Join</a>
 
-      <!-- CREATE ORDER BUTTON -->
-      <a href="menu.html" id="createAnOrder">
-      <img src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg" alt="Create An Order" id="createAnOrder" ></a>
+        <!-- CREATE ORDER BUTTON -->
+        <a href="menu.html" id="createAnOrder">
+          <img
+            src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg"
+            alt="Create An Order"
+            id="createAnOrder"
+        /></a>
 
-
-      <!-- VIEW CART BUTTON -->
+        <!-- VIEW CART BUTTON -->
         <a href="order.html" id="viewCart">
-        <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="viewCart" ></a>
+          <img
+            src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg"
+            alt="View Cart"
+            id="viewCart"
+        /></a>
       </div>
     </header>
-<!-- ! END OF HEADER ------------------------>
+    <!-- ! END OF HEADER ------------------------>
 
-<!-- ! BEGIN MAIN CONTAINER------------------------------------ -->
-<div class="mainContainer">
-  <div class="mainImg row1">
-  <img src="imgAssets/mainImg.png" id="mainImg" alt="Image of 3 bowls of food">
-</div>
-  <div class="rowOne ">
-    <div class="rowOneText">
-    <h2>Not your Average Cafe</h2>
-    <h3>Dig in to Steaks, Pizza, and more today now with contactless curbside pickup!</h3>
-  </div>
-    <div class="rowOneOrderBtn">
-    <a href="menu.html" id="orderNow"><img src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg" alt="Order Now" id="orderNow"></a>  
-  </div>
-  </div>
-
-  <div class="rowTwo">
-    <!-- TODO ADD SCROLL MENU -->
-    <div class="addToCartScroll">
-
-    <div class="clubSandwich">
-      <img src="imgAssets/addToCartScroll/steak.png" alt="steak" id="clubSandwich">
-    </div>
-    <div class="porkChops">
-      <img src="imgAssets/addToCartScroll/porkChops.png" alt="Pork Chops" id="porkChops">
-    </div>
-    <div class="chickenWings">
-      <img src="imgAssets/addToCartScroll/chickenWings.png" alt="Chicken Wings" id="chickenWings">
-    </div>
-    <div class="hamCheese">
-      <img src="imgAssets/addToCartScroll/hamCheese.png" alt="Ham & Cheese" id="hamCheese">
-    </div>
-    <div class="steak">
-      <img src="imgAssets/addToCartScroll/steak.png" alt="steak" id="steak">
-    </div>
-    <div class="ribs">
-      <img src="imgAssets/addToCartScroll/ribs.png" alt="ribs" id="ribs">
-    </div>
-    <div class="chickenDinner">
-      <img src="imgAssets/addToCartScroll/chickenDinner.png" alt="Chicken Dinner" id="chickenDinner">
-    </div>
-    <div class="italianPizza">
-      <img src="imgAssets/addToCartScroll/italianPizza.png" alt="Italian Pizza" id="italianPizza">
-    </div>
-    <div class="salad">
-      <img src="imgAssets/addToCartScroll/salad.png" alt="salad" id="salad">
-    </div>
-    <div class="burger">
-      <img src="imgAssets/addToCartScroll/burger.png" alt="Burger" id="burger">
-    </div>
-  </div>
-    <!-- TODO END SCROLL MENU -->
-  </div>
-  <div class="rowThree">
-     <div class="rowThreeText">
-       <h2>Don't Forget to Order Dessert!</h2>
-       <h3>A Tasty Oreo Frozen Dessert drizzled with Hot Fudge</h3>
-       </div>
-     <div class="rowThreeOrderBtn">
-       <a href="menu.html" id="orderNow"><img src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg" alt="Order Now" id="orderNow"></a>
+    <!-- ! BEGIN MAIN CONTAINER------------------------------------ -->
+    <div class="mainContainer">
+      <div class="mainImg row1">
+        <img
+          src="imgAssets/mainImg.png"
+          id="mainImg"
+          alt="Image of 3 bowls of food"
+        />
       </div>
-  </div>
-  <div class="rowThreeImg">
-    <img src="imgAssets/desertImg1.png" alt="Frozen Treat Dessert" id="dessertImg1">
-  </div>
+      <div class="rowOne">
+        <div class="rowOneText">
+          <h2>Not your Average Cafe</h2>
+          <h3>
+            Dig in to Steaks, Pizza, and more today now with contactless
+            curbside pickup!
+          </h3>
+        </div>
+        <div class="rowOneOrderBtn">
+          <a href="menu.html" id="orderNow"
+            ><img
+              src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg"
+              alt="Order Now"
+              id="orderNow"
+          /></a>
+        </div>
+      </div>
 
-  <div class="rowFourImg">
-    <img src="imgAssets/desertImg2.png" alt="Pie dessert image" id="dessertImg2">
-  </div>
-  <div class="rowFour">
-    <div class="rowFourText">
-      <h2>If You Want Healthy Dessert We Have That TOO!</h2>
-      <h3>Lemon Pie made sugar free, but still has all the great flavors!</h3>
+      <div class="rowTwo">
+        <!-- TODO ADD SCROLL MENU -->
+        <div class="addToCartScroll">
+          <div class="clubSandwich">
+            <a href="#" id="item5"
+              ><img
+                src="imgAssets/addToCartScroll/clubSandwich.png"
+                alt="Club Sandwich"
+                id="clubSandwich"
+            /></a>
+          </div>
+          <div class="porkChops">
+            <a href="#" id="item9"
+              ><img
+                src="imgAssets/addToCartScroll/porkChops.png"
+                alt="Pork Chops"
+                id="porkChops"
+            /></a>
+          </div>
+          <div class="chickenWings">
+            <a href="#2" id="item2"
+              ><img
+                src="imgAssets/addToCartScroll/chickenWings.png"
+                alt="Chicken Wings"
+                id="chickenWings"
+            /></a>
+          </div>
+          <div class="hamCheese">
+            <a href="#3" id="item3"
+              ><img
+                src="imgAssets/addToCartScroll/hamCheese.png"
+                alt="Ham & Cheese"
+                id="hamCheese"
+            /></a>
+          </div>
+          <div class="steak">
+            <a href="#" id="item8"
+              ><img
+                src="imgAssets/addToCartScroll/steak.png"
+                alt="steak"
+                id="steak"
+            /></a>
+          </div>
+          <div class="ribs">
+            <a href="#" id="item10"
+              ><img
+                src="imgAssets/addToCartScroll/ribs.png"
+                alt="ribs"
+                id="ribs"
+            /></a>
+          </div>
+          <div class="chickenDinner">
+            <a href="#" id="item7"
+              ><img
+                src="imgAssets/addToCartScroll/chickenDinner.png"
+                alt="Chicken Dinner"
+                id="chickenDinner"
+            /></a>
+          </div>
+          <div class="italianPizza">
+            <a href="#1" id="item1"
+              ><img
+                src="imgAssets/addToCartScroll/italianPizza.png"
+                alt="Italian Pizza"
+                id="italianPizza"
+            /></a>
+          </div>
+          <div class="salad">
+            <a href="#" id="item6"
+              ><img
+                src="imgAssets/addToCartScroll/salad.png"
+                alt="salad"
+                id="salad"
+            /></a>
+          </div>
+          <div class="burger">
+            <a href="#" id="item4"
+              ><img
+                src="imgAssets/addToCartScroll/burger.png"
+                alt="Burger"
+                id="burger"
+            /></a>
+          </div>
+        </div>
+        <!-- TODO END SCROLL MENU -->
+      </div>
+      <div class="rowThree">
+        <div class="rowThreeText">
+          <h2>Don't Forget to Order Dessert!</h2>
+          <h3>A Tasty Oreo Frozen Dessert drizzled with Hot Fudge</h3>
+        </div>
+        <div class="rowThreeOrderBtn">
+          <a href="menu.html" id="orderNow"
+            ><img
+              src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg"
+              alt="Order Now"
+              id="orderNow"
+          /></a>
+        </div>
+      </div>
+      <div class="rowThreeImg">
+        <img
+          src="imgAssets/desertImg1.png"
+          alt="Frozen Treat Dessert"
+          id="dessertImg1"
+        />
+      </div>
+
+      <div class="rowFourImg">
+        <img
+          src="imgAssets/desertImg2.png"
+          alt="Pie dessert image"
+          id="dessertImg2"
+        />
+      </div>
+      <div class="rowFour">
+        <div class="rowFourText">
+          <h2>If You Want Healthy Dessert We Have That TOO!</h2>
+          <h3>
+            Lemon Pie made sugar free, but still has all the great flavors!
+          </h3>
+        </div>
+        <div class="rowFourOrderBtn">
+          <a href="menu.html" id="orderNow"
+            ><img
+              src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg"
+              alt="Order Now"
+              id="orderNow"
+          /></a>
+        </div>
+      </div>
     </div>
-    <div class="rowFourOrderBtn">
-      <a href="menu.html" id="orderNow"><img src="assets/6466f661-5752-41ac-b3b9-9974b1479300.svg" alt="Order Now" id="orderNow"></a>
-     </div>
-  </div>
-</div>
 
-<!-- ! END OF MAIN CONTAINER --------------------------------- -->
+    <!-- ! END OF MAIN CONTAINER --------------------------------- -->
 
-<!--! BEGIN LOWER CONTAINER  ---------------->
-    
+    <!--! BEGIN LOWER CONTAINER  ---------------->
+
     <div class="lowerContainer">
-      <img src="imgAssets/bottomMenuImg.png" id="bottomMenuImg" alt="bacground image of coffe and oatmeal">
+      <img
+        src="imgAssets/bottomMenuImg.png"
+        id="bottomMenuImg"
+        alt="bacground image of coffe and oatmeal"
+      />
       <div class="lowerNav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="catering.html">Catering</a></li>
-    </div>
-    <div class="rewards">
-      <a href="login.html" >
-      <img id="btnRewards" src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg" alt="Join our rewards program today">
-    </a>
-  </div>
-  </div>
-
-<!--! END LOWER CONTAINER  ------------------->
-    <footer>
-      <p>This website is for a Web Technologies class and no products or services are available for purchase  </p>
-
-      <div class="links">
-      <a href="https://www.instagram.com" id="instagram"><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon" ></a>
-
-      <a href="https://www.twitter.com"><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"></a>
-
-      <a href="https://www.facebook.com"><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"></a>
-
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
       </div>
+      <div class="rewards">
+        <a href="login.html">
+          <img
+            id="btnRewards"
+            src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg"
+            alt="Join our rewards program today"
+          />
+        </a>
+      </div>
+    </div>
 
-  
+    <!--! END LOWER CONTAINER  ------------------->
+    <footer>
+      <div class="left">
+        <p>
+          This website is for a Web Technologies class and no products or
+          services are available for purchase
+        </p>
+      </div>
+      <div class="links">
+        <a href="https://www.instagram.com" id="instagram"
+          ><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon"
+        /></a>
+
+        <a href="https://www.twitter.com"
+          ><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"
+        /></a>
+
+        <a href="https://www.facebook.com"
+          ><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>

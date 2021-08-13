@@ -6,96 +6,191 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The DigIn Cafe</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/menuLayout.css">
-    <link rel="stylesheet" href="css/menuStyles.css">
+    <link rel="stylesheet" href="css/menuLayout.css" />
+    <link rel="stylesheet" href="css/menuStyles.css" />
     <script src="javascript/cartIcon.js" defer></script>
     <script src="javascript/addToCart.js" defer></script>
     <!-- <script src="javascript/cart.js"></script> -->
     <script src="javascript/menuItems.js" defer></script>
-
   </head>
   <body>
+    <!--! BEGIN HEADER---------------------------->
+    <header>
+      <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
+      <div class="logo">
+        <a href="index.html">
+          <img
+            id="companyLogo"
+            src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg"
+            alt="The DigIn Cafe"
+        /></a>
+      </div>
 
-<!--! BEGIN HEADER---------------------------->
-<header>
+      <!-- NAV LINKS MAIN -->
+      <div class="nav">
+        <div class="home">
+          <a id="menu" href="index.html"><h3>Home</h3></a>
+        </div>
 
-  <!-- TODO! ADD A LINK TO HOME FROM MAIN LOGO -->
-  <div class="logo"><a href="index.html">
-  <img id="companyLogo" src="assets/9d57c6b8-2e35-431d-a9b8-8cb1409b5d0c.svg" alt="The DigIn Cafe"></a>
-  </div>
+        <div class="menu">
+          <a id="menu" href="menu.html"><h3>Menu</h3></a>
+        </div>
 
-  <!-- NAV LINKS MAIN -->
-    <div class="nav">
-    <div class="home"><a id ="menu" href="index.html"><h3>Home</h3></a></div>
+        <div class="order">
+          <a id="menu" href="order.html"><h3>Order</h3></a>
+        </div>
+      </div>
+      <!-- END NAV LINKS -->
 
-    <div class="menu"><a id ="menu" href="menu.html"><h3>Menu</h3></a></div>
+      <!-- SIGN IN  -->
+      <div class="action">
+        <p><a href="login.html" id="signIn">Sign In or Join</a></p>
 
-    <div class="catering"><a id ="menu" href="catering.html"><h3>Catering</h3></a></div>
-  </div>
-  <!-- END NAV LINKS -->
+        <!-- CREATE ORDER BUTTON -->
+        <a href="menu.html" id="createAnOrder">
+          <img
+            src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg"
+            alt="Create An Order"
+            id="createAnOrder"
+        /></a>
 
-  <!-- SIGN IN  -->
-  <div class="action">
-  <p><a href="login.html" id="signIn" >Sign In or Join</a></p>
+        <!-- VIEW CART BUTTON -->
+        <a href="order.html" id="viewCart">
+          <img
+            src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg"
+            alt="View Cart"
+            id="viewCart"
+        /></a>
+      </div>
+    </header>
+    <!-- ! END OF HEADER ------------------------>
+    <div class="mainContainer">
+      <div class="pizza">
+        <a href="#1" id="item1"
+          ><img src="imgAssets/menuGrid/pizza.png" alt="pizza" id="pizza"
+        /></a>
+      </div>
+      <div class="chickenWings">
+        <a href="#2" id="item2"
+          ><img
+            src="imgAssets/menuGrid/chickenWings.png"
+            alt="Chicken Wings"
+            id="chickenWings"
+        /></a>
+      </div>
+      <div class="hamCheese">
+        <a href="#3" id="item3"
+          ><img
+            src="imgAssets/menuGrid/hamCheese.png"
+            alt="Ham & Cheese"
+            id="hamCheese"
+        /></a>
+      </div>
+      <div class="burger">
+        <a href="#" id="item4"
+          ><img src="imgAssets/menuGrid/burger.png" alt="Burger" id="burger"
+        /></a>
+      </div>
+      <div class="club">
+        <a href="#" id="item5"
+          ><img src="imgAssets/menuGrid/club.png" alt="Club Sandwich" id="club"
+        /></a>
+      </div>
+      <div class="salad">
+        <a href="#" id="item6"
+          ><img src="imgAssets/menuGrid/salad.png" alt="Salad" id="salad"
+        /></a>
+      </div>
+      <div class="chickenDinner">
+        <a href="#" id="item7"
+          ><img
+            src="imgAssets/menuGrid/chickenDinner.png"
+            alt="Chicken Dinner"
+            id="chickenDinner"
+        /></a>
+      </div>
+      <div class="steak">
+        <a href="#" id="item8"
+          ><img src="imgAssets/menuGrid/steak.png" alt="Steak" id="steak"
+        /></a>
+      </div>
+      <div class="porkChops">
+        <a href="#" id="item9"
+          ><img
+            src="imgAssets/menuGrid/porkChops.png"
+            alt="Pork Chops"
+            id="porkChops"
+        /></a>
+      </div>
+      <div class="ribs">
+        <a href="#" id="item10"
+          ><img src="imgAssets/menuGrid/ribs.png" alt="Ribs" id="ribs"
+        /></a>
+      </div>
+      <div class="dessertOne">
+        <a href="#" id="item11"
+          ><img
+            src="imgAssets/menuGrid/dessertOne.png"
+            alt="Oreo Dessert"
+            id="dessertOne"
+        /></a>
+      </div>
+      <div class="dessertTwo">
+        <a href="#" id="item12"
+          ><img
+            src="imgAssets/menuGrid/dessertTwo.png"
+            alt="Lemon Pie"
+            id="dessertTwo"
+        /></a>
+      </div>
+    </div>
 
-  <!-- CREATE ORDER BUTTON -->
-  <a href="menu.html" id="createAnOrder">
-  <img src="assets/30121da6-c5dc-405c-94d4-65b08156eeac.svg" alt="Create An Order" id="createAnOrder" ></a>
+    <!--! BEGIN LOWER CONTAINER  ---------------->
 
+    <div class="lowerContainer">
+      <img
+        src="imgAssets/bottomMenuImg.png"
+        id="bottomMenuImg"
+        alt="bacground image of coffe and oatmeal"
+      />
+      <div class="lowerNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </div>
+      <div class="rewards">
+        <a href="login.html">
+          <img
+            id="btnRewards"
+            src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg"
+            alt="Join our rewards program today"
+          />
+        </a>
+      </div>
+    </div>
 
-  <!-- VIEW CART BUTTON -->
-    <a href="order.html" id="viewCart">
-    <img src="assets/64badafc-b4fe-46f9-a86f-4ad199497ce4.svg" alt="View Cart" id="viewCart" ></a>
-  </div>
-</header>
-<!-- ! END OF HEADER ------------------------>
-<div class="mainContainer">
-<div class="pizza"><a href="#1" id="item1"><img src="imgAssets/menuGrid/pizza.png" alt="pizza" id="pizza"></a></div>
-<div class="chickenWings"><a href="#2" id="item2"><img src="imgAssets/menuGrid/chickenWings.png" alt="Chicken Wings" id="chickenWings"></a></div>
-<div class="hamCheese"><a href="#3" id="item3"><img src="imgAssets/menuGrid/hamCheese.png" alt="Ham & Cheese" id="hamCheese"></a></div>
-<div class="burger"><a href="#" id="item4"><img src="imgAssets/menuGrid/burger.png" alt="Burger" id="burger"></a></div>
-<div class="club"><a href="#" id="item5"><img src="imgAssets/menuGrid/club.png" alt="Club Sandwich" id="club"></a></div>
-<div class="salad"><a href="#" id="item6"><img src="imgAssets/menuGrid/salad.png" alt="Salad" id="salad"></a></div>
-<div class="chickenDinner"><a href="#" id="item7"><img src="imgAssets/menuGrid/chickenDinner.png" alt="Chicken Dinner" id="chickenDinner"></a></div>
-<div class="steak"><a href="#" id="item8"><img src="imgAssets/menuGrid/steak.png" alt="Steak" id="steak"></a></div>
-<div class="porkChops"><a href="#" id="item9"><img src="imgAssets/menuGrid/porkChops.png" alt="Pork Chops" id="porkChops"></a></div>
-<div class="ribs"><a href="#" id="item10"><img src="imgAssets/menuGrid/ribs.png" alt="Ribs" id="ribs"></a></div>
-<div class="dessertOne"><a href="#" id="item11"><img src="imgAssets/menuGrid/dessertOne.png" alt="Oreo Dessert" id="dessertOne"></a></div>
-<div class="dessertTwo"><a href="#" id="item12"><img src="imgAssets/menuGrid/dessertTwo.png" alt="Lemon Pie" id="dessertTwo"></a></div>
+    <!--! END LOWER CONTAINER  ------------------->
+    <footer>
+      <p>
+        This website is for a Web Technologies class and no products or services
+        are available for purchase
+      </p>
 
-</div>
+      <div class="links">
+        <a href="https://www.instagram.com" id="instagram"
+          ><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon"
+        /></a>
 
-<!--! BEGIN LOWER CONTAINER  ---------------->
-    
-<div class="lowerContainer">
-  <img src="imgAssets/bottomMenuImg.png" id="bottomMenuImg" alt="bacground image of coffe and oatmeal">
-  <div class="lowerNav">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="catering.html">Catering</a></li>
-</div>
-<div class="rewards">
-  <a href="login.html" >
-  <img id="btnRewards" src="assets/56864e09-68f2-4be4-a556-65df8f5c2f7c.svg" alt="Join our rewards program today">
-</a>
-</div>
-</div>
+        <a href="https://www.twitter.com"
+          ><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"
+        /></a>
 
-<!--! END LOWER CONTAINER  ------------------->
-<footer>
-  <p>This website is for a Web Technologies class and no products or services are available for purchase  </p>
-
-  <div class="links">
-  <a href="https://www.instagram.com" id="instagram"><img src="imgAssets/iconInstagram.png" alt="instagram" id="xicon" ></a>
-
-  <a href="https://www.twitter.com"><img src="imgAssets/iconTwitter.png" id="xicon" alt="twitter"></a>
-
-  <a href="https://www.facebook.com"><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"></a>
-
-  </div>
-
-
-</footer>
-</body>
+        <a href="https://www.facebook.com"
+          ><img src="imgAssets/iconFacebook.png" id="xicon" alt="facebook"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -140,6 +140,9 @@ div.links {
   justify-content: space-around;
   align-items: center;
 }
+div.links > a {
+  margin-bottom: 1vw;
+}
 img#xicon {
   width: 2vw;
 }
