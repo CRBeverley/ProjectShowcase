@@ -1,139 +1,149 @@
-div.mainContainer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr (3.8fr 20px)[3] 1fr;
-      grid-template-columns: 1fr repeat(3, 3.8fr 20px) 1fr;
-  -ms-grid-rows: 8vh (1fr 4vh)[4];
-      grid-template-rows: 8vh repeat(4, 1fr 4vh);
+@media screen and (min-device-width: 1201px) {
+  div.mainContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr (3.8fr 20px)[3] 1fr;
+        grid-template-columns: 1fr repeat(3, 3.8fr 20px) 1fr;
+    -ms-grid-rows: 8vh (1fr 4vh)[4];
+        grid-template-rows: 8vh repeat(4, 1fr 4vh);
+  }
+  div.pizza {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 2/2/3/3;
+    height: 100%;
+    border-radius: 25px;
+  }
+  div.chickenWings {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-area: 2/4/3/5;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.hamCheese {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 1;
+    grid-area: 2/6/3/7;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.burger {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 4/2/5/3;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.club {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-area: 4/4/5/5;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.salad {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 1;
+    grid-area: 4/6/5/7;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.chickenDinner {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 6/2/7/3;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.steak {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-area: 6/4/7/5;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.porkChops {
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 1;
+    grid-area: 6/6/7/7;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.ribs {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-area: 8/2/9/3;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.dessertOne {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-area: 8/4/9/5;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.dessertTwo {
+    -ms-grid-row: 8;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 1;
+    grid-area: 8/6/9/7;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
 }
 
-div.pizza {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2/2/3/3;
-  height: 100%;
-  border-radius: 25px;
+@media screen and (max-device-width: 600px) {
+  div.mainContainer div {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
 }
 
-div.chickenWings {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 1;
-  grid-area: 2/4/3/5;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.hamCheese {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 1;
-  grid-area: 2/6/3/7;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.burger {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 4/2/5/3;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.club {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 1;
-  grid-area: 4/4/5/5;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.salad {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 1;
-  grid-area: 4/6/5/7;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.chickenDinner {
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 6/2/7/3;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.steak {
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 1;
-  grid-area: 6/4/7/5;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.porkChops {
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 1;
-  grid-area: 6/6/7/7;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.ribs {
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 8/2/9/3;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.dessertOne {
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 1;
-  grid-area: 8/4/9/5;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-
-div.dessertTwo {
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 1;
-  grid-area: 8/6/9/7;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
+@media screen and (min-device-width: 601px) and (max-device-width: 1200px) and (max-device-width: 1200px) {
+  div.mainContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: 2vw;
+  }
+  div.mainContainer div {
+    margin: 2vw;
+  }
 }

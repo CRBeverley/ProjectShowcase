@@ -73,6 +73,39 @@ div.signIn > input {
   width: 10vw;
   margin-bottom: 3vh;
 }
+@media screen and (max-device-width: 600px) {
+  .mainContainer {
+    grid-template-columns: 0.1vw 1fr 2fr 1fr 0.1vw;
+  }
+  div.login {
+    grid-column: 2 / 5;
+  }
+  fieldset#login > legend {
+    padding-top: 25vw;
+    font-size: 10vw;
+  }
+  fieldset#login label {
+    font-size: 7vw;
+  }
+  fieldset#login input#userName,
+  fieldset#login input#password {
+    width: 60vw;
+    height: 8vw;
+    border-radius: 7px;
+  }
+  div.signIn {
+    padding-top: 10vw;
+    margin-bottom: 25vw;
+  }
+  div.signIn > a#createAccountLink {
+    font-size: 2.5vw;
+    margin-bottom: 3vh;
+  }
+  div.signIn > input {
+    width: 25vw;
+    margin-bottom: 3vh;
+  }
+}
 
 // div.login {
 //   grid-column: 1 / 2;

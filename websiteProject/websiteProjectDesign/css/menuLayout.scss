@@ -1,88 +1,110 @@
-div.mainContainer {
-  display: grid;
-  grid-template-columns: 1fr repeat(3, 3.8fr 20px) 1fr;
-  grid-template-rows: 8vh repeat(4, 1fr 4vh);
+@media screen and (min-device-width: 1201px) {
+  div.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3.8fr 20px) 1fr;
+    grid-template-rows: 8vh repeat(4, 1fr 4vh);
+  }
+  div.pizza {
+    grid-area: 2/2/3/3;
+    height: 100%;
+    border-radius: 25px;
+    //background-color: #1a1a1a;
+  }
+  div.chickenWings {
+    grid-area: 2/4/3/5;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.hamCheese {
+    grid-area: 2/6/3/7;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.burger {
+    grid-area: 4/2/5/3;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.club {
+    grid-area: 4/4/5/5;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.salad {
+    grid-area: 4/6/5/7;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.chickenDinner {
+    grid-area: 6/2/7/3;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.steak {
+    grid-area: 6/4/7/5;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.porkChops {
+    grid-area: 6/6/7/7;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.ribs {
+    grid-area: 8/2/9/3;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.dessertOne {
+    grid-area: 8/4/9/5;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
+  div.dessertTwo {
+    grid-area: 8/6/9/7;
+    // background-color: #1a1a1a;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+  }
 }
-div.pizza {
-  grid-area: 2/2/3/3;
-  height: 100%;
-  border-radius: 25px;
-  //background-color: #1a1a1a;
+
+@media screen and (max-device-width: 600px) {
+  div.mainContainer div {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
 }
-div.chickenWings {
-  grid-area: 2/4/3/5;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.hamCheese {
-  grid-area: 2/6/3/7;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.burger {
-  grid-area: 4/2/5/3;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.club {
-  grid-area: 4/4/5/5;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.salad {
-  grid-area: 4/6/5/7;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.chickenDinner {
-  grid-area: 6/2/7/3;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.steak {
-  grid-area: 6/4/7/5;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.porkChops {
-  grid-area: 6/6/7/7;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.ribs {
-  grid-area: 8/2/9/3;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.dessertOne {
-  grid-area: 8/4/9/5;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-}
-div.dessertTwo {
-  grid-area: 8/6/9/7;
-  // background-color: #1a1a1a;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
+
+@media screen and (min-device-width: 601px) and (max-device-width: 1200px) {
+  @media screen and (max-device-width: 1200px) {
+    div.mainContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 2vw;
+      div {
+        margin: 2vw;
+      }
+    }
+  }
 }

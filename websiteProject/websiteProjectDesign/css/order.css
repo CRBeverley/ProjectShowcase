@@ -150,3 +150,35 @@ tr#checkOut {
 input#btnCheckOut {
   width: 70%;
 }
+
+@media screen and (max-device-width: 600px) {
+  div.mainContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.1vw 4fr 0.1vw;
+        grid-template-columns: 0.1vw 4fr 0.1vw;
+  }
+  div.orderTable > table th {
+    font-size: 4vmin;
+  }
+  td#row1 img {
+    width: 5vmax;
+  }
+  td > input#qty {
+    width: 8vmin;
+  }
+  td {
+    font-size: 3vmin;
+  }
+  input[id^="btnRemoveItem"] {
+    vertical-align: middle;
+    width: 10vmin;
+  }
+  input#btnCheckOut {
+    margin-top: 2vw;
+    width: 100%;
+  }
+  div.orderTable {
+    padding-bottom: 10vw;
+  }
+}

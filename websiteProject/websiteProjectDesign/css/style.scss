@@ -91,7 +91,7 @@ img#viewCart {
   width: 3vw;
 }
 //! CELLPHONE SCREEN HEADER-------------------------------------
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   header {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
@@ -168,13 +168,14 @@ img#bottomMenuImg {
   width: 100%;
   height: 50vh;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-device-width: 1200px) {
   .lowerContainer {
     grid-template-columns: 10% 45% 45%;
-    height: 30vh;
+    height: 100%;
   }
   img#bottomMenuImg {
-    height: 30vh;
+    // height: 30vh;
+    height: 100%;
   }
 }
 div.lowerNav {
@@ -197,7 +198,7 @@ div.lowerNav {
     }
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-device-width: 1200px) {
   img#btnRewards {
     margin-bottom: 3.5vh;
   }
@@ -213,14 +214,16 @@ img#btnRewards {
 }
 
 //!FOR SMALL SCREENS (SMARTPHONE)-----------------------------
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   .lowerContainer {
     grid-template-columns: 5% 35% 60%;
-    height: 15vh;
+    // height: 15vh;
+    margin-top: 3vw;
+    height: 100%;
   }
   img#bottomMenuImg {
-    margin-top: 7vw;
-    height: 15vh;
+    // margin-top: 7vw;
+    height: 100%;
     border-radius: 5px 5px 0px 0px;
   }
   img#btnRewards {
@@ -232,7 +235,7 @@ img#btnRewards {
   }
 
   footer {
-    margin-top: 7vw;
+    // margin-top: 7vw;
     border-radius: 0px 0px 5px 5px;
   }
 }
