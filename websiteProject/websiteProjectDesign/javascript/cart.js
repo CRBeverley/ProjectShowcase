@@ -13,6 +13,7 @@ let orderTotal = 0;
 
 loadCartItemHTML();
 
+//shopping cart function to load html for items
 function loadCartItemHTML() {
   //! START FUNCTION HERE---------------------------------------------------
   for (let i = 0; i < itemName.length; i++) {

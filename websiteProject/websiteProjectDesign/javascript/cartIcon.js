@@ -8,6 +8,7 @@ for (let i = 0; i < itemQuantity.length; i++) {
 }
 sessionStorage.setItem("totalQuantity", totalQuantity);
 
+//cart icon change
 function cartIconChange() {
   if (totalQuantity >= 1 && totalQuantity <= 9) {
     document.querySelector(

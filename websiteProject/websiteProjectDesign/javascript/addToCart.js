@@ -6,6 +6,7 @@ if (sessionStorage.getItem("totalQuantity") !== null) {
   totalQuantity = parseInt(sessionStorage.getItem("totalQuantity"));
 }
 
+//add to cart click
 for (let i = 1; i <= 12; i++) {
   document.querySelector(`#item${i}`).addEventListener("click", function () {
     itemQuantity[i - 1] = itemQuantity[i - 1] + 1;

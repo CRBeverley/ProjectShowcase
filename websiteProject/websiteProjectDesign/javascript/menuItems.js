@@ -2,7 +2,6 @@
 
 let itemQuantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-//! ITEM BELOW CAUSING ERROR WHEN NO ITEMS IN CART BUT STILL FUNCTIONS
 itemQuantity = JSON.parse(sessionStorage["itemQuantity"]);
 
 //Would have been easier with objects instead
