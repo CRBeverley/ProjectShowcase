@@ -4,7 +4,6 @@ div.mainContainer {
   grid-template-rows: 1fr 5fr 1fr;
   margin-top: 5vmin;
   margin-bottom: 5vmin;
-  // height: 50vh;
 }
 
 //! IF CART EMPTY JAVASCRIPT TO DISPLAY div.cartEmpty-------------
@@ -73,7 +72,6 @@ tr {
   border-bottom: 3px solid rgba($color: #000000, $alpha: 0.08);
 }
 td {
-  // text-align: center;
   color: #fff;
   font-size: 1.8vmin;
 }
@@ -100,10 +98,7 @@ input[id^="btnRemoveItem"] {
   vertical-align: middle;
   width: 7vmin;
 }
-// input#btnRemoveItem {
-//   vertical-align: middle;
-//   width: 7vmin;
-// }
+
 hr#total {
   width: 50%;
 }
