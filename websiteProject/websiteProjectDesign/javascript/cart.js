@@ -44,6 +44,7 @@ function loadCartItemHTML() {
   document.querySelector(".orderTable").innerHTML = tableHTML;
 }
 
+//REMOVE ITEM
 for (let i = 0; i < itemNumber.length; i++) {
   if (document.querySelector(`#btnRemoveItem${itemNumber[i]}`) !== null) {
     document
@@ -51,6 +52,7 @@ for (let i = 0; i < itemNumber.length; i++) {
       .addEventListener("click", function () {
         itemQuantity[itemNumber[i] - 1] = 0;
         sessionStorage["itemQuantity"] = JSON.stringify(itemQuantity);
+
         location.reload();
       });
   }

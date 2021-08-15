@@ -1,6 +1,5 @@
 "use strict";
-let totalQuantity = 0;
-// totalQuantity = parseInt(sessionStorage.getItem("totalQuantity"));
+
 let itemQuantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 //! ITEM BELOW CAUSING ERROR WHEN NO ITEMS IN CART BUT STILL FUNCTIONS
